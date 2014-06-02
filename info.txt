@@ -1,0 +1,17 @@
+http://new.scalaluxury.com/
+
+admin: http://new.scalaluxury.com/wp-admin
+admin - cya1234
+
+
+FTP: 
+- host: scalaluxury.com
+- user: huyen@scalaluxury.com
+- Pass: su+tfmMpK2)_
+
+
+Cpanel: https://192.163.255.34:2083/
+scalalux
+7{IrGzV&@kq&
+
+up code vào thư mục new nhé
