@@ -1,0 +1,2668 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Photo Reactive\n"
+"POT-Creation-Date: 2014-03-06 18:34+0530\n"
+"PO-Revision-Date: 2014-03-06 18:34+0530\n"
+"Last-Translator: imaginem <imagine.themes@gmail.com>\n"
+"Language-Team: imaginem\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.6.3\n"
+"X-Poedit-KeywordsList: _e;__;gettext;gettext_noop\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: /Users/mondre/Sites/wordpress.mu/wp-content/themes/"
+"carbon\n"
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/404.php:11
+msgid "Try searching..."
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/comments.php:3
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/page-comments.php:3
+msgid "Please do not load this page directly. Thanks!"
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/comments.php:6
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/page-comments.php:6
+msgid ""
+"This post is password protected. Enter the password to view any comments."
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/comments.php:15
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/page-comments.php:14
+msgid "No Responses"
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/comments.php:15
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/page-comments.php:14
+msgid "One Response"
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/comments.php:15
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/page-comments.php:14
+msgid "% Responses"
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/footer.php:27
+msgid "edit this entry"
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/functions.php:581
+#, php-format
+msgid "Page %s"
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/functions.php:594
+msgid "Default sidebar selected for pages, blog posts and archives."
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/functions.php:604
+msgid "For social widget to display social icons."
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/functions.php:614
+msgid "Default sidebar for portfolio pages."
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/header-navigation.php:32
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/framework/functions/framework-functions.php:125
+msgid "Home"
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/header-title.php:23
+#, php-format
+msgid "Daily Archives: <span>%s</span>"
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/header-title.php:25
+#, php-format
+msgid "Monthly Archives: <span>%s</span>"
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/header-title.php:27
+#, php-format
+msgid "Yearly Archives: <span>%s</span>"
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/header-title.php:29
+msgid "Author Archives: "
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/header-title.php:31
+#, php-format
+msgid "Category : %s"
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/header-title.php:33
+#, php-format
+msgid "Tag : %s"
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/header-title.php:35
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/search.php:26
+#, php-format
+msgid "Search Results for: %s"
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/header-title.php:37
+msgid "404 Page not Found!"
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/loop-attachment.php:34
+msgid "Previous Image"
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/loop-attachment.php:39
+msgid "Lightbox"
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/loop-attachment.php:44
+msgid "Next Image"
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/loop-attachment.php:86
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/framework/functions/framework-functions.php:209
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/woocommerce/shop/breadcrumb.php:204
+msgid "Page"
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/loop-page.php:15
+msgid "Pages:"
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/page-comments.php:50
+msgid "Leave a Reply"
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/page-comments.php:50
+#, php-format
+msgid "Leave a Reply to %s"
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/search.php:30
+msgid "Nothing Found"
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/search.php:31
+msgid ""
+"Sorry, but nothing matched your search criteria. Please try again with some "
+"different keywords."
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/searchform.php:2
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/searchform.php:3
+msgid "Search"
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/single-mtheme_portfolio.php:55
+msgid "Previous"
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/single-mtheme_portfolio.php:58
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/framework/options/admin/options-medialibrary-uploader.php:288
+msgid "Gallery"
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/single-mtheme_portfolio.php:61
+msgid "Next"
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/single-mtheme_portfolio.php:131
+msgid " details"
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/single-mtheme_portfolio.php:191
+msgid "Recently in Portfolio"
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/template-fullscreen-home.php:29
+msgid "<h1>No Fullscreen post selected in theme options.</h1>"
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/framework/admin/tgm/class-tgm-plugin-activation.php:164
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/framework/admin/tgm/tgm-init.php:120
+msgid "Install Required Plugins"
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/framework/admin/tgm/class-tgm-plugin-activation.php:165
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/framework/admin/tgm/tgm-init.php:121
+msgid "Install Plugins"
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/framework/admin/tgm/class-tgm-plugin-activation.php:166
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/framework/admin/tgm/tgm-init.php:122
+#, php-format
+msgid "Installing Plugin: %s"
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/framework/admin/tgm/class-tgm-plugin-activation.php:167
+msgid "Something went wrong."
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/framework/admin/tgm/class-tgm-plugin-activation.php:180
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/framework/admin/tgm/class-tgm-plugin-activation.php:512
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/framework/admin/tgm/tgm-init.php:134
+msgid "Return to Required Plugins Installer"
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/framework/admin/tgm/class-tgm-plugin-activation.php:181
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/framework/admin/tgm/class-tgm-plugin-activation.php:1910
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/framework/admin/tgm/tgm-init.php:135
+msgid "Plugin activated successfully."
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/framework/admin/tgm/class-tgm-plugin-activation.php:182
+#, php-format
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/framework/admin/tgm/class-tgm-plugin-activation.php:539
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/framework/admin/tgm/class-tgm-plugin-activation.php:2122
+msgid "Return to the Dashboard"
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/framework/admin/tgm/class-tgm-plugin-activation.php:567
+#, php-format
+msgid "The following plugin was activated successfully: %s."
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/framework/admin/tgm/class-tgm-plugin-activation.php:740
+msgid "Dismiss this notice"
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/framework/admin/tgm/class-tgm-plugin-activation.php:1127
+msgid "External Link"
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/framework/admin/tgm/class-tgm-plugin-activation.php:1132
+msgid "Private Repository"
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/framework/admin/tgm/class-tgm-plugin-activation.php:1135
+msgid "Pre-Packaged"
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/framework/admin/tgm/class-tgm-plugin-activation.php:1139
+msgid "WordPress Repository"
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/framework/admin/tgm/class-tgm-plugin-activation.php:1142
+msgid "Required"
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/framework/admin/tgm/class-tgm-plugin-activation.php:1142
+msgid "Recommended"
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/framework/admin/tgm/class-tgm-plugin-activation.php:1145
+msgid "Not Installed"
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/framework/admin/tgm/class-tgm-plugin-activation.php:1147
+msgid "Installed But Not Activated"
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/framework/admin/tgm/class-tgm-plugin-activation.php:1149
+msgid "Not Updated"
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/framework/admin/tgm/class-tgm-plugin-activation.php:1151
+msgid "Active"
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/framework/admin/tgm/class-tgm-plugin-activation.php:1345
+#, php-format
+msgid ""
+"No plugins to install or activate. <a href=\"%1$s\" title=\"Return to the "
+"Dashboard\">Return to the Dashboard</a>"
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/framework/admin/tgm/class-tgm-plugin-activation.php:1361
+msgid "Plugin"
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/framework/admin/tgm/class-tgm-plugin-activation.php:1362
+msgid "Source"
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/framework/admin/tgm/class-tgm-plugin-activation.php:1363
+msgid "Type"
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/framework/admin/tgm/class-tgm-plugin-activation.php:1364
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/woocommerce/myaccount/my-orders.php:34
+msgid "Status"
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/framework/admin/tgm/class-tgm-plugin-activation.php:1382
+msgid "Install"
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/framework/admin/tgm/class-tgm-plugin-activation.php:1383
+msgid "Activate"
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/framework/admin/tgm/class-tgm-plugin-activation.php:1893
+msgid "Install package not available."
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/framework/admin/tgm/class-tgm-plugin-activation.php:1894
+#, php-format
+msgid "Downloading install package from <span class=\"code\">%s</span>&#8230;"
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/framework/admin/tgm/class-tgm-plugin-activation.php:1895
+msgid "Unpacking the package&#8230;"
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/framework/admin/tgm/class-tgm-plugin-activation.php:1896
+msgid "Installing the plugin&#8230;"
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/framework/admin/tgm/class-tgm-plugin-activation.php:1897
+msgid "Plugin install failed."
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/framework/admin/tgm/class-tgm-plugin-activation.php:1898
+msgid "Plugin installed successfully."
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/framework/admin/tgm/class-tgm-plugin-activation.php:1909
+msgid "Plugin activation failed."
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/framework/admin/tgm/class-tgm-plugin-activation.php:2019
+msgid ""
+"The installation and activation process is starting. This process may take a "
+"while on some hosts, so please be patient."
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/framework/admin/tgm/class-tgm-plugin-activation.php:2020
+#, php-format
+msgid "%1$s installed and activated successfully."
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/framework/admin/tgm/class-tgm-plugin-activation.php:2020
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/framework/admin/tgm/class-tgm-plugin-activation.php:2029
+msgid "Show Details"
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/framework/admin/tgm/class-tgm-plugin-activation.php:2020
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/framework/admin/tgm/class-tgm-plugin-activation.php:2029
+msgid "Hide Details"
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/framework/admin/tgm/class-tgm-plugin-activation.php:2021
+msgid "All installations and activations have been completed."
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/framework/admin/tgm/class-tgm-plugin-activation.php:2022
+#, php-format
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/framework/admin/tgm/class-tgm-plugin-activation.php:2026
+msgid ""
+"The installation process is starting. This process may take a while on some "
+"hosts, so please be patient."
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/framework/admin/tgm/class-tgm-plugin-activation.php:2027
+#, php-format
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/framework/admin/tgm/class-tgm-plugin-activation.php:2028
+#, php-format
+msgid "The installation of %1$s failed."
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/framework/admin/tgm/class-tgm-plugin-activation.php:2029
+#, php-format
+msgid "%1$s installed successfully."
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/framework/admin/tgm/class-tgm-plugin-activation.php:2030
+msgid "All installations have been completed."
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/framework/admin/tgm/class-tgm-plugin-activation.php:2031
+#, php-format
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/framework/admin/tgm/tgm-init.php:123
+msgid "Something went wrong with the plugin API."
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/framework/admin/tgm/tgm-init.php:136
+#, php-format
+msgid "All plugins installed and activated successfully. %s"
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/framework/functions/framework-functions.php:147
+msgid "Projects"
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/framework/functions/framework-functions.php:195
+msgid "Search Results For:"
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/framework/functions/framework-functions.php:353
+msgid "Theme options set Static Image"
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/framework/functions/framework-functions.php:354
+msgid "Theme options set Slideshow"
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/framework/functions/framework-functions.php:355
+msgid "Slideshow from post/page image attachments"
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/framework/functions/framework-functions.php:356
+msgid "Featured image from this post/page"
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/framework/functions/framework-functions.php:357
+msgid "Slideshow from a fullscreen post"
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/framework/functions/framework-functions.php:358
+msgid "Custom background image"
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/framework/functions/framework-functions.php:359
+msgid "none"
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/framework/functions/framework-functions.php:414
+msgid "Posted in "
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/framework/functions/framework-functions.php:415
+#, php-format
+msgid ""
+"<span class=\"sep\">Posted on </span><a href=\"%1$s\" title=\"%2$s\" rel="
+"\"bookmark\"><time class=\"entry-date\" datetime=\"%3$s\" pubdate>%4$s</"
+"time></a><span class=\"by-author\"> <span class=\"sep\"> by </span> <span "
+"class=\"author vcard\"><a class=\"url fn n\" href=\"%5$s\" title=\"%6$s\" "
+"rel=\"author\">%7$s</a></span></span>"
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/framework/functions/framework-functions.php:733
+msgid "year"
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/framework/functions/framework-functions.php:734
+msgid "month"
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/framework/functions/framework-functions.php:735
+msgid "week"
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/framework/functions/framework-functions.php:736
+msgid "day"
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/framework/functions/framework-functions.php:737
+msgid "hour"
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/framework/functions/framework-functions.php:738
+msgid "minute"
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/framework/functions/framework-functions.php:840
+msgid "Page "
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/framework/functions/framework-functions.php:840
+msgid " of "
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/framework/functions/post-pagination.php:311
+msgid "Previous Post"
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/framework/functions/post-pagination.php:311
+msgid "Next Post"
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/framework/metaboxes/fullscreen-metaboxes.php:86
+msgid "Add Images"
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/framework/metaboxes/fullscreen-metaboxes.php:90
+msgid ""
+"<div class=\"metabox-note\">Add images from Media Uploader or by uploading "
+"new images.</div>"
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/framework/metaboxes/fullscreen-metaboxes.php:93
+msgid "Fullscreen Type"
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/framework/metaboxes/fullscreen-metaboxes.php:98
+msgid "Fullscreen page type"
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/framework/metaboxes/fullscreen-metaboxes.php:107
+msgid "For Kenburns & Static Slideshow Text"
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/framework/metaboxes/fullscreen-metaboxes.php:111
+msgid "Static Title"
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/framework/metaboxes/fullscreen-metaboxes.php:120
+msgid "Static Decription"
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/framework/metaboxes/fullscreen-metaboxes.php:129
+msgid "Static Button Text"
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/framework/metaboxes/fullscreen-metaboxes.php:138
+msgid "Static Button Link"
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/framework/metaboxes/fullscreen-metaboxes.php:143
+msgid "Slideshow Audio files (optional)"
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/framework/metaboxes/fullscreen-metaboxes.php:147
+msgid "Enter MP3 file path for Slideshow"
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/framework/metaboxes/fullscreen-metaboxes.php:157
+msgid "Enter OGA file path for Slideshow"
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/framework/metaboxes/fullscreen-metaboxes.php:167
+msgid "Enter M4A file path for Slideshow"
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/framework/metaboxes/fullscreen-metaboxes.php:172
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/framework/metaboxes/post-metaboxes.php:214
+msgid "Vimeo video ID"
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/framework/metaboxes/fullscreen-metaboxes.php:176
+msgid "Enter Vimeo video ID for fullscreen playback"
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/framework/metaboxes/fullscreen-metaboxes.php:180
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/framework/metaboxes/post-metaboxes.php:207
+msgid "Youtube video ID"
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/framework/metaboxes/fullscreen-metaboxes.php:184
+msgid ""
+"<strong>Add a featured image for iOS autoplay fallback.</strong><br /><br /"
+">Youtube IDs<br/>eg: <code>ylLzyHk54Z0</code>. Youtube video IDs can be "
+"found at the end of youtube url - <br/>http://www.youtube.com/watch?"
+"v=<code>ylLzyHk54Z0</code>"
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/framework/metaboxes/page-metaboxes.php:88
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/framework/metaboxes/portfolio-metaboxes.php:37
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/framework/metaboxes/post-metaboxes.php:93
+msgid "Attach Images"
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/framework/metaboxes/page-metaboxes.php:90
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/framework/metaboxes/portfolio-metaboxes.php:39
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/framework/metaboxes/post-metaboxes.php:95
+msgid "Upload Images"
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/framework/metaboxes/page-metaboxes.php:92
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/framework/metaboxes/portfolio-metaboxes.php:41
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/framework/metaboxes/post-metaboxes.php:97
+msgid "<div class=\"metabox-note\">Attach images to this page/post.</div>"
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/framework/metaboxes/page-metaboxes.php:95
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/framework/metaboxes/portfolio-metaboxes.php:44
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/framework/metaboxes/post-metaboxes.php:100
+msgid "Background Slideshow / Image from"
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/framework/metaboxes/page-metaboxes.php:99
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/framework/metaboxes/portfolio-metaboxes.php:48
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/framework/metaboxes/post-metaboxes.php:104
+msgid ""
+"<div class=\"metabox-note\">\n"
+"\t\t\t<strong>Static Image from Theme options</strong> <em>Satic image set "
+"from theme options as background</em></br>\n"
+"\t\t\t<strong>Slideshow from Theme options:</strong> <em>Slideshow chosen "
+"from theme options as background</em></br>\n"
+"\t\t\t<strong>Slideshow from post/page image attachments:</strong> "
+"<em>Slideshow from images attached to this post/page</em></br>\n"
+"\t\t\t<strong>Static image using post/page featured image:</strong> "
+"<em>Static image from featured image of this post/page</em></br>\n"
+"\t\t\t<strong>Slideshow from a fullscreen post:</strong> <em>Slideshow from "
+"a fullscreen post - choose from next selector.</em></br>\n"
+"\t\t\t<strong>Static image using custom background image:</strong> "
+"<em>Static image from custom background image url listed below</em></br>\n"
+"\t\t\t</div>\n"
+"\t\t\t"
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/framework/metaboxes/page-metaboxes.php:111
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/framework/metaboxes/portfolio-metaboxes.php:60
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/framework/metaboxes/post-metaboxes.php:116
+msgid "Background Slideshow from a fullscreen post"
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/framework/metaboxes/page-metaboxes.php:115
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/framework/metaboxes/portfolio-metaboxes.php:64
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/framework/metaboxes/post-metaboxes.php:120
+msgid ""
+"<div class=\"metabox-note\"><strong>Note :</strong>If selected, your choice "
+"of fullscreen slideshow post is used to create the  page background "
+"slideshow</div>"
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/framework/metaboxes/page-metaboxes.php:119
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/framework/metaboxes/portfolio-metaboxes.php:68
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/framework/metaboxes/post-metaboxes.php:124
+msgid "Custom background image URL"
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/framework/metaboxes/page-metaboxes.php:124
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/framework/metaboxes/portfolio-metaboxes.php:73
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/framework/metaboxes/post-metaboxes.php:129
+msgid ""
+"<div class=\"metabox-note\">Upload or provide full url of background. eg. "
+"<code>http://www.domain.com/path/image.jpg</code></div>"
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/framework/metaboxes/page-metaboxes.php:127
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/framework/metaboxes/portfolio-metaboxes.php:84
+msgid "Page Style"
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/framework/metaboxes/page-metaboxes.php:131
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/framework/metaboxes/post-metaboxes.php:136
+msgid ""
+"<strong>With Sidebar :</strong> Displays post with sidebar - two columns</"
+"br><strong>Fullwidth without sidebar :</strong> Displays post as without "
+"sidebar"
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/framework/metaboxes/page-metaboxes.php:138
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/framework/metaboxes/portfolio-metaboxes.php:101
+msgid "Choice of Sidebar"
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/framework/metaboxes/page-metaboxes.php:141
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/framework/metaboxes/portfolio-metaboxes.php:105
+msgid "For Sidebar Active Pages and Posts"
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/framework/metaboxes/portfolio-metaboxes.php:76
+msgid "Header image"
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/framework/metaboxes/portfolio-metaboxes.php:81
+msgid ""
+"<div class=\"metabox-note\">Upload or provide full url of header image. eg. "
+"<code>http://www.domain.com/path/image.jpg</code></div>"
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/framework/metaboxes/portfolio-metaboxes.php:93
+msgid ""
+"<strong>Column:</strong> Displays column based portfolio.</"
+"br><strong>Fullwidth:</strong> Displays fullwidth portfolio."
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/framework/metaboxes/portfolio-metaboxes.php:109
+msgid "Portfolio Post Header"
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/framework/metaboxes/portfolio-metaboxes.php:118
+msgid "Select type of Portfolio header."
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/framework/metaboxes/portfolio-metaboxes.php:128
+msgid "Video Embed Code for Header"
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/framework/metaboxes/portfolio-metaboxes.php:133
+msgid "Video Embed code for Portfolio Header."
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/framework/metaboxes/portfolio-metaboxes.php:137
+msgid "Gallery thumbnails link to"
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/framework/metaboxes/portfolio-metaboxes.php:146
+msgid "Link type of portfolio image in portfolio galleries."
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/framework/metaboxes/portfolio-metaboxes.php:154
+msgid "Fill for Lightbox Video"
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/framework/metaboxes/portfolio-metaboxes.php:159
+msgid ""
+"To display a Lightbox Video.<br/>Eg.<br/>http://www.youtube.com/watch?"
+"v=D78TYCEG4<br/>http://vimeo.com/172881<br/>http://www.adobe.com/products/"
+"flashplayer/include/marquee/design.swf?width=792&height=294"
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/framework/metaboxes/portfolio-metaboxes.php:163
+msgid "Fill for Custom Link"
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/framework/metaboxes/portfolio-metaboxes.php:168
+msgid "For any link. URL followed with <code>http://</code>"
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/framework/metaboxes/portfolio-metaboxes.php:172
+msgid "Description below Thumbnail ( Portfolio Gallery )"
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/framework/metaboxes/portfolio-metaboxes.php:175
+msgid "This description is displayed below each thumbnail."
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/framework/metaboxes/portfolio-metaboxes.php:179
+msgid "Description for AJAX Preview"
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/framework/metaboxes/portfolio-metaboxes.php:182
+msgid ""
+"Ajax item description. Leave empty to use gallery item description instead."
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/framework/metaboxes/portfolio-metaboxes.php:186
+msgid "Skills Required"
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/framework/metaboxes/portfolio-metaboxes.php:189
+msgid "Comma seperated skills sets. eg. PHP,HTML,CSS,Illustrator,Photoshop"
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/framework/metaboxes/portfolio-metaboxes.php:193
+msgid "Client Name (optional)"
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/framework/metaboxes/portfolio-metaboxes.php:196
+msgid "Name of Client"
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/framework/metaboxes/portfolio-metaboxes.php:200
+msgid "Client Link (optional)"
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/framework/metaboxes/portfolio-metaboxes.php:203
+msgid "URL of Client"
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/framework/metaboxes/portfolio-metaboxes.php:207
+msgid "Project Link (optional)"
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/framework/metaboxes/portfolio-metaboxes.php:210
+msgid "Project link. URL followed with <code>http://</code>"
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/framework/metaboxes/portfolio-metaboxes.php:214
+msgid "Custom Thumbnail. (optional)"
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/framework/metaboxes/portfolio-metaboxes.php:218
+msgid "Thumbnail URL. URL followed with <code>http://</code>"
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/framework/metaboxes/post-metaboxes.php:132
+msgid "Post Style"
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/framework/metaboxes/post-metaboxes.php:160
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/framework/metaboxes/post-metaboxes.php:163
+msgid "HTML5 Video"
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/framework/metaboxes/post-metaboxes.php:167
+msgid "Video Title"
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/framework/metaboxes/post-metaboxes.php:171
+msgid "Title for Video"
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/framework/metaboxes/post-metaboxes.php:174
+msgid "M4V File URL"
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/framework/metaboxes/post-metaboxes.php:178
+msgid "Enter M4V File URL ( Required )"
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/framework/metaboxes/post-metaboxes.php:181
+msgid "OGV File URL"
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/framework/metaboxes/post-metaboxes.php:185
+msgid "Enter OGV File URL"
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/framework/metaboxes/post-metaboxes.php:188
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/framework/metaboxes/post-metaboxes.php:193
+msgid "Poster Image"
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/framework/metaboxes/post-metaboxes.php:196
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/framework/metaboxes/post-metaboxes.php:200
+msgid "Video Hosts"
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/framework/metaboxes/post-metaboxes.php:203
+msgid "Youtube Video ID"
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/framework/metaboxes/post-metaboxes.php:210
+msgid "Vimeo Video ID"
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/framework/metaboxes/post-metaboxes.php:217
+msgid "Daily Motion Video ID"
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/framework/metaboxes/post-metaboxes.php:221
+msgid "Daily Motion video ID"
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/framework/metaboxes/post-metaboxes.php:224
+msgid "Google Video ID"
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/framework/metaboxes/post-metaboxes.php:228
+msgid "Google video ID"
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/framework/metaboxes/post-metaboxes.php:231
+msgid "Video Embed Code"
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/framework/metaboxes/post-metaboxes.php:235
+msgid "Video Embed code. You can grab embed codes from hosted video sites."
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/framework/metaboxes/post-metaboxes.php:248
+msgid "MP3 file"
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/framework/metaboxes/post-metaboxes.php:252
+msgid ""
+"Please provide full url. eg. <code>http://www.domain.com/path/audiofile.mp3</"
+"code>"
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/framework/metaboxes/post-metaboxes.php:255
+msgid "M4A file"
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/framework/metaboxes/post-metaboxes.php:259
+msgid ""
+"Please provide full url. eg. <code>http://www.domain.com/path/audiofile.m4a</"
+"code>"
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/framework/metaboxes/post-metaboxes.php:262
+msgid "OGA file"
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/framework/metaboxes/post-metaboxes.php:266
+msgid ""
+"Please provide full url. eg. <code>http://www.domain.com/path/audiofile.ogg</"
+"code>"
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/framework/metaboxes/post-metaboxes.php:279
+msgid "Link URL"
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/framework/metaboxes/post-metaboxes.php:283
+msgid "Please provide full url. eg. <code>http://www.domain.com/path/</code>"
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/framework/metaboxes/post-metaboxes.php:296
+msgid "Enable Lightbox"
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/framework/metaboxes/post-metaboxes.php:312
+msgid "Quote"
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/framework/metaboxes/post-metaboxes.php:316
+msgid "Enter quote here"
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/framework/metaboxes/post-metaboxes.php:319
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/framework/metaboxes/post-metaboxes.php:323
+msgid "Author"
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/framework/metaboxgen/metaboxgen.php:110
+msgid "Create Featured Gallery"
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/framework/metaboxgen/metaboxgen.php:118
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/framework/metaboxgen/metaboxgen.php:126
+msgid "Edit Featured Gallery"
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/framework/metaboxgen/metaboxgen.php:163
+msgid "Save Featured Gallery"
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/framework/metaboxgen/metaboxgen.php:173
+msgid "Saving..."
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/framework/metaboxgen/metaboxgen.php:240
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/framework/metaboxgen/metaboxgen.php:242
+msgid "Edit Gallery"
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/framework/options/options-data.php:88
+msgid "Fav icon file"
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/framework/options/options-data.php:89
+msgid ""
+"Customize with your fav icon. The fav icon is displayed in the browser window"
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/framework/options/options-data.php:93
+msgid "Theme Style"
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/framework/options/options-data.php:94
+msgid "Styles found in root theme : style_dark.css / style.css"
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/framework/options/options-data.php:118
+msgid "Custom CSS"
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/framework/options/options-data.php:119
+msgid ""
+"You can include custom CSS to this field. There's also a custom.css file "
+"included with the theme which you can make additions to. <br/> eg. <code>."
+"entry-title h1 { font-family: 'Lobster', cursive; }</code>"
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/framework/options/options-data.php:128
+msgid "Site Logo"
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/framework/options/options-data.php:129
+msgid "Upload logo for website."
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/framework/options/options-data.php:133
+msgid "Logo Width"
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/framework/options/options-data.php:134
+msgid "Logo width in pixels"
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/framework/options/options-data.php:143
+msgid "Top Space"
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/framework/options/options-data.php:144
+msgid "Top spacing for logo ( 0 sets default )"
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/framework/options/options-data.php:153
+msgid "Bottom Space"
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/framework/options/options-data.php:154
+msgid "Bottom spacing for logo ( 0 sets default )"
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/framework/options/options-data.php:163
+msgid "Left Space"
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/framework/options/options-data.php:164
+msgid "Left spacing for logo ( 0 sets default )"
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/framework/options/options-data.php:173
+msgid "Custom WordPress Login Page Logo"
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/framework/options/options-data.php:174
+msgid "Upload logo for WordPress Login Page"
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/framework/options/options-data.php:181
+msgid "Background color"
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/framework/options/options-data.php:182
+msgid "No color selected by default."
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/framework/options/options-data.php:187
+msgid "General Background Fullscreen Slideshow Page"
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/framework/options/options-data.php:188
+msgid "General Background Fullscreen Slideshow Page."
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/framework/options/options-data.php:195
+msgid "Background image ( required for archive pages )"
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/framework/options/options-data.php:196
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/framework/options/options-data.php:201
+msgid "Upload background image"
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/framework/options/options-data.php:200
+msgid "Photowall Background image"
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/framework/options/options-data.php:205
+msgid "Background overlay pattern"
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/framework/options/options-data.php:206
+msgid "Background overlay patterns."
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/framework/options/options-data.php:229
+msgid "Background pattern opacity ( default 85 )"
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/framework/options/options-data.php:230
+msgid "Background pattern opacity"
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/framework/options/options-data.php:242
+msgid "Set Fullscreen Hompage"
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/framework/options/options-data.php:243
+msgid "Requires a Page created with Fullscreen Home template."
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/framework/options/options-data.php:257
+msgid "Loop Audio Clip"
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/framework/options/options-data.php:258
+msgid "Loop the audio clip for fullscreen slideshows"
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/framework/options/options-data.php:263
+msgid "On-start volume"
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/framework/options/options-data.php:264
+msgid "Volume to start with"
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/framework/options/options-data.php:295
+msgid "Transition"
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/framework/options/options-data.php:296
+msgid "Transition type"
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/framework/options/options-data.php:312
+msgid "Auto Play Slideshow"
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/framework/options/options-data.php:313
+msgid "Auto start slideshow on load"
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/framework/options/options-data.php:318
+msgid "Pause on last slide"
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/framework/options/options-data.php:319
+msgid "Pause on end of slideshow"
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/framework/options/options-data.php:324
+msgid "Pause on hover"
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/framework/options/options-data.php:325
+msgid "Pause slideshow on hover"
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/framework/options/options-data.php:330
+msgid "Vertical center"
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/framework/options/options-data.php:331
+msgid "Vertical center images"
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/framework/options/options-data.php:336
+msgid "Horizontal center"
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/framework/options/options-data.php:337
+msgid "Horizontal center images"
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/framework/options/options-data.php:342
+msgid "Fit portrait"
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/framework/options/options-data.php:343
+msgid "Portrait images will not exceed browser height"
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/framework/options/options-data.php:348
+msgid "Fit Landscape"
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/framework/options/options-data.php:349
+msgid "Landscape images will not exceed browser width"
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/framework/options/options-data.php:354
+msgid "Fit Always"
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/framework/options/options-data.php:355
+msgid "Image will never exceed browser width or height."
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/framework/options/options-data.php:360
+msgid "Slide Interval"
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/framework/options/options-data.php:361
+msgid "Length between transitions"
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/framework/options/options-data.php:370
+msgid "Transition speed"
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/framework/options/options-data.php:371
+msgid "Speed of transition"
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/framework/options/options-data.php:383
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/framework/options/options-data.php:384
+msgid "Accent Color"
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/framework/options/options-data.php:393
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/framework/options/options-data.php:394
+msgid "Fullscreen Toggle color"
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/framework/options/options-data.php:399
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/framework/options/options-data.php:400
+msgid "Fullscreen Toggle background color"
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/framework/options/options-data.php:405
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/framework/options/options-data.php:406
+msgid "Fullscreen Toggle Hover color"
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/framework/options/options-data.php:411
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/framework/options/options-data.php:412
+msgid "Fullscreen Toggle Hover background color"
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/framework/options/options-data.php:421
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/framework/options/options-data.php:422
+msgid "Menu Background fill"
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/framework/options/options-data.php:427
+msgid "Menu opacity ( default 65% )"
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/framework/options/options-data.php:428
+msgid "Menu opacity"
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/framework/options/options-data.php:437
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/framework/options/options-data.php:438
+msgid "Menu Background Hover fill"
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/framework/options/options-data.php:443
+msgid "Menu Hover opacity ( default 60% )"
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/framework/options/options-data.php:444
+msgid "Menu hover opacity"
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/framework/options/options-data.php:453
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/framework/options/options-data.php:454
+msgid "Menu title link color"
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/framework/options/options-data.php:459
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/framework/options/options-data.php:460
+msgid "Menu title link hover color"
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/framework/options/options-data.php:465
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/framework/options/options-data.php:466
+msgid "Menu subcategory link color"
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/framework/options/options-data.php:471
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/framework/options/options-data.php:472
+msgid "Menu subcategory link hover color"
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/framework/options/options-data.php:481
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/framework/options/options-data.php:482
+msgid "Fullscreen Slideshow title"
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/framework/options/options-data.php:487
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/framework/options/options-data.php:488
+msgid "Fullscreen Slideshow caption text"
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/framework/options/options-data.php:493
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/framework/options/options-data.php:494
+msgid "Fullscreen Slideshow caption background"
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/framework/options/options-data.php:499
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/framework/options/options-data.php:500
+msgid "Fullscreen Button text"
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/framework/options/options-data.php:505
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/framework/options/options-data.php:506
+msgid "Fullscreen Button border"
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/framework/options/options-data.php:511
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/framework/options/options-data.php:512
+msgid "Fullscreen Button Hover text"
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/framework/options/options-data.php:517
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/framework/options/options-data.php:518
+msgid "Fullscreen Button Hover background"
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/framework/options/options-data.php:523
+msgid "Fullscreen Slideshow transition progress bar"
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/framework/options/options-data.php:524
+msgid "Slideshow transition progress bar"
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/framework/options/options-data.php:533
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/framework/options/options-data.php:534
+msgid "Page background"
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/framework/options/options-data.php:539
+msgid "Page opacity ( default 100 )"
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/framework/options/options-data.php:540
+msgid "Page opacity"
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/framework/options/options-data.php:549
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/framework/options/options-data.php:550
+msgid "Page title color"
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/framework/options/options-data.php:555
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/framework/options/options-data.php:556
+msgid "Page contents color"
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/framework/options/options-data.php:561
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/framework/options/options-data.php:562
+msgid "Page contents heading color"
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/framework/options/options-data.php:567
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/framework/options/options-data.php:568
+msgid "Sidebar background color"
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/framework/options/options-data.php:573
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/framework/options/options-data.php:574
+msgid "Sidebar heading color"
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/framework/options/options-data.php:579
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/framework/options/options-data.php:580
+msgid "Sidebar link color"
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/framework/options/options-data.php:585
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/framework/options/options-data.php:586
+msgid "Sidebar text color"
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/framework/options/options-data.php:595
+msgid "Enable Google Web Fonts"
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/framework/options/options-data.php:596
+msgid "Enable Google Web fonts"
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/framework/options/options-data.php:601
+msgid "Menu Font"
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/framework/options/options-data.php:602
+msgid "Select menu font"
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/framework/options/options-data.php:609
+msgid "Slideshow Title font"
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/framework/options/options-data.php:610
+msgid "Select font for slideshow title"
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/framework/options/options-data.php:617
+msgid "Heading Font (applies to all headings)"
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/framework/options/options-data.php:618
+msgid "Select heading font"
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/framework/options/options-data.php:625
+msgid "Contents post/page heading (overide)"
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/framework/options/options-data.php:626
+msgid "Select font for headings inside posts and pages"
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/framework/options/options-data.php:637
+msgid "Font Embed Code"
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/framework/options/options-data.php:638
+msgid ""
+"eg. <code>&lt;link href='http://fonts.googleapis.com/css?family=Lobster' "
+"rel='stylesheet' type='text/css'&gt;</code>"
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/framework/options/options-data.php:643
+msgid "CSS Codes for Custom Font"
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/framework/options/options-data.php:644
+msgid "eg. <code>.entry-title h1 { font-family: 'Lobster', cursive; }</code>"
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/framework/options/options-data.php:652
+msgid "Enable comments"
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/framework/options/options-data.php:653
+msgid ""
+"Enable comments for portfolio items. Switching off will disable comments and "
+"comment information on portfolio thumbnails."
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/framework/options/options-data.php:658
+msgid "Number of thumbnail columns for Portfolio archives listing"
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/framework/options/options-data.php:659
+msgid ""
+"Affects portfolio archives. eg. Browsing portfolio category and tag links."
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/framework/options/options-data.php:668
+msgid "Portfolio permalink slug (Important Note below)"
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/framework/options/options-data.php:669
+msgid ""
+"Slug name used in portfolio permalink. <br/> IMPORTANT NOTE: After changing "
+"this please make sure to flush the old cache by visiting wp-admin > Settings "
+"> Permalinks"
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/framework/options/options-data.php:675
+msgid "Portfolio refered as ( Singular )"
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/framework/options/options-data.php:676
+msgid "Text name to refer portfolio as a singular ( one item )"
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/framework/options/options-data.php:682
+msgid "Portfolio refered as ( Plural )"
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/framework/options/options-data.php:683
+msgid "Text name to refer portfolio as plural ( many items )"
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/framework/options/options-data.php:689
+msgid "Refer to Client as"
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/framework/options/options-data.php:690
+msgid "Refer to Client as. Seen in Portfolio details pages"
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/framework/options/options-data.php:696
+msgid "Refer to Skills as"
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/framework/options/options-data.php:697
+msgid "Refer to Skills as. Seen in Portfolio details pages"
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/framework/options/options-data.php:703
+msgid "Filter tag for all Items"
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/framework/options/options-data.php:704
+msgid "Displays as a filterable tag in place of all items"
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/framework/options/options-data.php:713
+msgid "Display Fullpost Archives"
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/framework/options/options-data.php:714
+msgid "Display fullpost archives"
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/framework/options/options-data.php:719
+msgid "Hide allowed HTML tags info"
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/framework/options/options-data.php:720
+msgid "Hide allowed HTML tags info after comments box"
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/framework/options/options-data.php:725
+msgid "Time format for blog posts"
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/framework/options/options-data.php:726
+msgid "Switch from traditional or modern time"
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/framework/options/options-data.php:736
+msgid "Read more text"
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/framework/options/options-data.php:737
+msgid "Enter text for Read more"
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/framework/options/options-data.php:746
+msgid "Section title"
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/framework/options/options-data.php:747
+msgid "Title for this section"
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/framework/options/options-data.php:753
+msgid "Email address"
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/framework/options/options-data.php:754
+msgid "Email address to recieve mail"
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/framework/options/options-data.php:760
+msgid "Label- Name Field"
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/framework/options/options-data.php:761
+msgid "Label for name field"
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/framework/options/options-data.php:767
+msgid "Label- Email Field"
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/framework/options/options-data.php:768
+msgid "Label for email field"
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/framework/options/options-data.php:774
+msgid "Label- Subject Field"
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/framework/options/options-data.php:775
+msgid "Label for subject field"
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/framework/options/options-data.php:781
+msgid "Label- Message Field"
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/framework/options/options-data.php:782
+msgid "Label for message field"
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/framework/options/options-data.php:788
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/framework/options/options-data.php:789
+msgid "Error Notice - For no name input"
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/framework/options/options-data.php:795
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/framework/options/options-data.php:796
+msgid "Error Notice - For no email input"
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/framework/options/options-data.php:802
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/framework/options/options-data.php:803
+msgid "Error Notice - For invalid email input"
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/framework/options/options-data.php:809
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/framework/options/options-data.php:810
+msgid "Error Notice - For no message input"
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/framework/options/options-data.php:816
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/framework/options/options-data.php:817
+msgid "Thank you message"
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/framework/options/options-data.php:823
+msgid "Button text"
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/framework/options/options-data.php:824
+msgid "Button text for form"
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/framework/options/options-data.php:839
+msgid "Sidebar Name"
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/framework/options/options-data.php:840
+msgid "Activate sidebars by naming them."
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/framework/options/options-data.php:846
+msgid "Sidebar Description"
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/framework/options/options-data.php:847
+msgid ""
+"A small description to display inside the widget to easily identify it. "
+"Widget description is only shown in admin mode inside the widget."
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/framework/options/options-data.php:857
+msgid "WooCommerce Shop default title"
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/framework/options/options-data.php:858
+msgid "Shop title for WooCommerce shop. ( default 'Shop' )."
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/framework/options/options-data.php:867
+msgid "Copyright text"
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/framework/options/options-data.php:868
+msgid "Enter your copyright and other texts to display in footer"
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/framework/options/options-data.php:873
+msgid "Footer Scripts"
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/framework/options/options-data.php:874
+msgid "Enter footer scripts. eg. Google Analytics. "
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/framework/options/options-data.php:882
+msgid "Export Options ( Copy this ) Read-Only."
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/framework/options/options-data.php:883
+msgid ""
+"Select All, copy and store your theme options backup. You can use these "
+"value to import theme options settings."
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/framework/options/options-data.php:893
+msgid "Import Options ( Paste and Save )"
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/framework/options/options-data.php:894
+msgid ""
+"CAUTION: Copy and Paste the Export Options settings into the window and Save "
+"to apply theme options settings."
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/framework/options/admin/options-framework.php:139
+msgid "Options Imported!"
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/framework/options/admin/options-framework.php:170
+msgid "Invalid Import"
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/framework/options/admin/options-framework.php:172
+msgid "Options Saved!"
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/framework/options/admin/options-framework.php:255
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/framework/options/admin/options-framework.php:471
+msgid "Default options restored."
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/framework/options/admin/options-framework.php:437
+msgid "Click OK to reset. Any theme settings will be lost!"
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/framework/options/admin/options-framework.php:512
+msgid "Options saved."
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/framework/options/admin/options-framework.php:571
+msgid "Theme Options"
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/framework/options/admin/options-medialibrary-uploader.php:26
+msgid "Options Framework Internal Container"
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/framework/options/admin/options-medialibrary-uploader.php:128
+msgid "Upload"
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/framework/options/admin/options-medialibrary-uploader.php:151
+msgid "View File"
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/framework/options/admin/options-medialibrary-uploader.php:288
+msgid "Previously Uploaded"
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/includes/post-related.php:19
+msgid "Related Posts"
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/includes/share-this.php:25
+msgid "Share"
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/includes/postformats/post-data.php:62
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/woocommerce/order/tracking.php:18
+msgid "ago"
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/woocommerce/loop-shop.php:40
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/woocommerce/loop/no-products-found.php:14
+msgid "No products found which match your selection."
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/woocommerce/single-product-reviews.php:28
+#, php-format
+msgid "Rated %s out of 5"
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/woocommerce/single-product-reviews.php:28
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/woocommerce/single-product/review.php:27
+msgid "out of 5"
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/woocommerce/single-product-reviews.php:36
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/woocommerce/single-product-reviews.php:42
+msgid "Reviews"
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/woocommerce/single-product-reviews.php:58
+msgid "<span class=\"meta-nav\">&larr;</span> Previous"
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/woocommerce/single-product-reviews.php:59
+msgid "Next <span class=\"meta-nav\">&rarr;</span>"
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/woocommerce/single-product-reviews.php:63
+msgid "Add Your Review"
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/woocommerce/single-product-reviews.php:63
+msgid "Add Review"
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/woocommerce/single-product-reviews.php:65
+msgid "Add a review"
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/woocommerce/single-product-reviews.php:69
+msgid "Be the first to review"
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/woocommerce/single-product-reviews.php:71
+msgid ""
+"There are no reviews yet, would you like to <a href=\"#review_form\" class="
+"\"inline show_review_form\">submit yours</a>?"
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/woocommerce/single-product-reviews.php:84
+msgid "Name"
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/woocommerce/single-product-reviews.php:86
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/woocommerce/myaccount/form-login.php:78
+msgid "Email"
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/woocommerce/single-product-reviews.php:89
+msgid "Submit Review"
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/woocommerce/single-product-reviews.php:96
+msgid "Rating"
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/woocommerce/single-product-reviews.php:97
+msgid "Rate&hellip;"
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/woocommerce/single-product-reviews.php:98
+msgid "Perfect"
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/woocommerce/single-product-reviews.php:99
+msgid "Good"
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/woocommerce/single-product-reviews.php:100
+msgid "Average"
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/woocommerce/single-product-reviews.php:101
+msgid "Not that bad"
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/woocommerce/single-product-reviews.php:102
+msgid "Very Poor"
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/woocommerce/single-product-reviews.php:107
+msgid "Your Review"
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/woocommerce/cart/cart-empty.php:14
+msgid "Your cart is currently empty."
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/woocommerce/cart/cart-empty.php:18
+msgid "&larr; Return To Shop"
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/woocommerce/cart/cart.php:28
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/woocommerce/checkout/form-pay.php:19
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/woocommerce/checkout/review-order.php:21
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/woocommerce/emails/admin-new-order.php:22
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/woocommerce/emails/customer-completed-order.php:23
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/woocommerce/emails/customer-invoice.php:27
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/woocommerce/emails/customer-note.php:27
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/woocommerce/emails/customer-processing-order.php:23
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/woocommerce/order/order-details.php:20
+msgid "Product"
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/woocommerce/cart/cart.php:29
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/woocommerce/emails/admin-new-order.php:24
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/woocommerce/emails/customer-completed-order.php:25
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/woocommerce/emails/customer-invoice.php:29
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/woocommerce/emails/customer-note.php:29
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/woocommerce/emails/customer-processing-order.php:25
+msgid "Price"
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/woocommerce/cart/cart.php:30
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/woocommerce/emails/admin-new-order.php:23
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/woocommerce/emails/customer-completed-order.php:24
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/woocommerce/emails/customer-invoice.php:28
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/woocommerce/emails/customer-note.php:28
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/woocommerce/emails/customer-processing-order.php:24
+msgid "Quantity"
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/woocommerce/cart/cart.php:31
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/woocommerce/checkout/review-order.php:22
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/woocommerce/myaccount/my-orders.php:35
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/woocommerce/order/order-details.php:21
+msgid "Total"
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/woocommerce/cart/cart.php:47
+msgid "Remove this item"
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/woocommerce/cart/cart.php:76
+msgid "Available on backorder"
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/woocommerce/cart/cart.php:127
+msgid "Coupon"
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/woocommerce/cart/cart.php:127
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/woocommerce/checkout/form-coupon.php:29
+msgid "Apply Coupon"
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/woocommerce/cart/cart.php:134
+msgid "Update Cart"
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/woocommerce/cart/cart.php:134
+msgid "Proceed to Checkout &rarr;"
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/woocommerce/cart/cross-sells.php:38
+msgid "You may be interested in&hellip;"
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/woocommerce/cart/mini-cart.php:55
+msgid "No products in the cart."
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/woocommerce/cart/mini-cart.php:63
+msgid "Subtotal"
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/woocommerce/cart/mini-cart.php:68
+msgid "View Cart &rarr;"
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/woocommerce/cart/mini-cart.php:69
+msgid "Checkout &rarr;"
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/woocommerce/cart/shipping-calculator.php:22
+msgid "Calculate Shipping"
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/woocommerce/cart/shipping-calculator.php:28
+msgid "Select a country&hellip;"
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/woocommerce/cart/shipping-calculator.php:45
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/woocommerce/cart/shipping-calculator.php:51
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/woocommerce/cart/shipping-calculator.php:63
+msgid "State / county"
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/woocommerce/cart/shipping-calculator.php:52
+msgid "Select a state&hellip;"
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/woocommerce/cart/shipping-calculator.php:72
+msgid "City"
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/woocommerce/cart/shipping-calculator.php:80
+msgid "Postcode / Zip"
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/woocommerce/cart/shipping-calculator.php:85
+msgid "Update Totals"
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/woocommerce/cart/shipping-methods.php:32
+msgid "Free"
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/woocommerce/cart/shipping-methods.php:68
+msgid "Please fill in your details to see available shipping methods."
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/woocommerce/cart/shipping-methods.php:76
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/woocommerce/cart/totals.php:147
+#, php-format
+msgid ""
+"Sorry, it seems that there are no available shipping methods for your "
+"location (%s)."
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/woocommerce/cart/shipping-methods.php:76
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/woocommerce/cart/totals.php:147
+msgid ""
+"If you require assistance or wish to make alternate arrangements please "
+"contact us."
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/woocommerce/cart/totals.php:22
+msgid "Cart Totals"
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/woocommerce/cart/totals.php:28
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/woocommerce/checkout/review-order.php:27
+msgid "Cart Subtotal"
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/woocommerce/cart/totals.php:35
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/woocommerce/checkout/review-order.php:34
+msgid "Cart Discount"
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/woocommerce/cart/totals.php:35
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/woocommerce/cart/totals.php:83
+msgid "[Remove]"
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/woocommerce/cart/totals.php:46
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/woocommerce/checkout/review-order.php:45
+msgid "Shipping"
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/woocommerce/cart/totals.php:83
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/woocommerce/checkout/review-order.php:82
+msgid "Order Discount"
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/woocommerce/cart/totals.php:92
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/woocommerce/checkout/review-order.php:91
+msgid "Order Total"
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/woocommerce/cart/totals.php:105
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/woocommerce/checkout/review-order.php:104
+#, php-format
+msgid "(Includes %s)"
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/woocommerce/cart/totals.php:121
+#, php-format
+msgid " (taxes estimated for %s)"
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/woocommerce/cart/totals.php:123
+#, php-format
+msgid ""
+"Note: Shipping and taxes are estimated%s and will be updated during checkout "
+"based on your billing and shipping information."
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/woocommerce/cart/totals.php:135
+msgid ""
+"No shipping methods were found; please recalculate your shipping and enter "
+"your state/county and zip/postcode to ensure there are no other available "
+"methods for your location."
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/woocommerce/checkout/cart-errors.php:16
+msgid ""
+"There are some issues with the items in your cart (shown above). Please go "
+"back to the cart page and resolve these issues before checking out."
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/woocommerce/checkout/cart-errors.php:20
+msgid "&larr; Return To Cart"
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/woocommerce/checkout/form-billing.php:17
+msgid "Billing &amp; Shipping"
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/woocommerce/checkout/form-billing.php:21
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/woocommerce/myaccount/form-edit-address.php:27
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/woocommerce/myaccount/my-address.php:19
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/woocommerce/myaccount/my-address.php:25
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/woocommerce/order/order-details.php:115
+msgid "Billing Address"
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/woocommerce/checkout/form-billing.php:42
+msgid "Create an account?"
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/woocommerce/checkout/form-billing.php:51
+msgid ""
+"Create an account by entering the information below. If you are a returning "
+"customer please login at the top of the page."
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/woocommerce/checkout/form-checkout.php:20
+msgid "You must be logged in to checkout."
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/woocommerce/checkout/form-checkout.php:51
+msgid "Your order"
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/woocommerce/checkout/form-coupon.php:17
+msgid "Have a coupon?"
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/woocommerce/checkout/form-coupon.php:20
+msgid "Click here to enter your code"
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/woocommerce/checkout/form-coupon.php:25
+msgid "Coupon code"
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/woocommerce/checkout/form-login.php:14
+msgid "Returning customer?"
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/woocommerce/checkout/form-login.php:17
+msgid "Click here to login"
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/woocommerce/checkout/form-login.php:22
+msgid ""
+"If you have shopped with us before, please enter your details in the boxes "
+"below. If you are a new customer please proceed to the Billing &amp; "
+"Shipping section."
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/woocommerce/checkout/form-pay.php:20
+msgid "Qty"
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/woocommerce/checkout/form-pay.php:21
+msgid "Totals"
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/woocommerce/checkout/form-pay.php:78
+msgid ""
+"Sorry, it seems that there are no available payment methods for your "
+"location. Please contact us if you require assistance or wish to make "
+"alternate arrangements."
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/woocommerce/checkout/form-pay.php:87
+msgid "Pay for order"
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/woocommerce/checkout/form-shipping.php:32
+msgid "Ship to billing address?"
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/woocommerce/checkout/form-shipping.php:35
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/woocommerce/myaccount/form-edit-address.php:27
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/woocommerce/myaccount/my-address.php:20
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/woocommerce/order/order-details.php:130
+msgid "Shipping Address"
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/woocommerce/checkout/form-shipping.php:59
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/woocommerce/single-product/tabs/additional-information.php:14
+msgid "Additional Information"
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/woocommerce/checkout/review-order.php:174
+msgid "Please fill in your details above to see available payment methods."
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/woocommerce/checkout/review-order.php:176
+msgid ""
+"Sorry, it seems that there are no available payment methods for your state. "
+"Please contact us if you require assistance or wish to make alternate "
+"arrangements."
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/woocommerce/checkout/review-order.php:185
+msgid ""
+"Since your browser does not support JavaScript, or it is disabled, please "
+"ensure you click the <em>Update Totals</em> button before placing your "
+"order. You may be charged more than the amount stated above if you fail to "
+"do so."
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/woocommerce/checkout/review-order.php:185
+msgid "Update totals"
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/woocommerce/checkout/review-order.php:192
+msgid "Place order"
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/woocommerce/checkout/review-order.php:199
+msgid "I have read and accept the"
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/woocommerce/checkout/review-order.php:199
+msgid "terms &amp; conditions"
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/woocommerce/checkout/thankyou.php:18
+msgid ""
+"Unfortunately your order cannot be processed as the originating bank/"
+"merchant has declined your transaction."
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/woocommerce/checkout/thankyou.php:22
+msgid "Please attempt your purchase again or go to your account page."
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/woocommerce/checkout/thankyou.php:24
+msgid "Please attempt your purchase again."
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/woocommerce/checkout/thankyou.php:28
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/woocommerce/myaccount/my-orders.php:71
+msgid "Pay"
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/woocommerce/checkout/thankyou.php:30
+msgid "My Account"
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/woocommerce/checkout/thankyou.php:36
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/woocommerce/checkout/thankyou.php:67
+msgid "Thank you. Your order has been received."
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/woocommerce/checkout/thankyou.php:40
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/woocommerce/emails/customer-completed-order.php:18
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/woocommerce/emails/customer-invoice.php:22
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/woocommerce/emails/customer-note.php:22
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/woocommerce/emails/customer-processing-order.php:18
+msgid "Order:"
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/woocommerce/checkout/thankyou.php:44
+msgid "Date:"
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/woocommerce/checkout/thankyou.php:48
+msgid "Total:"
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/woocommerce/checkout/thankyou.php:53
+msgid "Payment method:"
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/woocommerce/emails/admin-new-order.php:13
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/woocommerce/emails/plain/admin-new-order.php:13
+#, php-format
+msgid "You have received an order from %s. Their order is as follows:"
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/woocommerce/emails/admin-new-order.php:17
+#, php-format
+msgid "Order: %s"
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/woocommerce/emails/admin-new-order.php:50
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/woocommerce/emails/customer-completed-order.php:51
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/woocommerce/emails/customer-note.php:55
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/woocommerce/emails/customer-processing-order.php:51
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/woocommerce/emails/plain/admin-new-order.php:38
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/woocommerce/order/order-details.php:97
+msgid "Customer details"
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/woocommerce/emails/admin-new-order.php:53
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/woocommerce/emails/customer-completed-order.php:54
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/woocommerce/emails/customer-note.php:58
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/woocommerce/emails/customer-processing-order.php:54
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/woocommerce/emails/plain/admin-new-order.php:41
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/woocommerce/emails/plain/customer-completed-order.php:41
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/woocommerce/emails/plain/customer-note.php:49
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/woocommerce/emails/plain/customer-processing-order.php:41
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/woocommerce/order/order-details.php:101
+msgid "Email:"
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/woocommerce/emails/admin-new-order.php:56
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/woocommerce/emails/customer-completed-order.php:57
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/woocommerce/emails/customer-note.php:61
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/woocommerce/emails/customer-processing-order.php:57
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/woocommerce/emails/plain/admin-new-order.php:44
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/woocommerce/emails/plain/customer-completed-order.php:44
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/woocommerce/emails/plain/customer-note.php:52
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/woocommerce/emails/plain/customer-processing-order.php:44
+msgid "Tel:"
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/woocommerce/emails/customer-completed-order.php:14
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/woocommerce/emails/plain/customer-completed-order.php:13
+#, php-format
+msgid ""
+"Hi there. Your recent order on %s has been completed. Your order details are "
+"shown below for your reference:"
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/woocommerce/emails/customer-invoice.php:16
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/woocommerce/emails/plain/customer-invoice.php:14
+#, php-format
+msgid ""
+"An order has been created for you on %s. To pay for this order please use "
+"the following link: %s"
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/woocommerce/emails/customer-invoice.php:16
+msgid "pay"
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/woocommerce/emails/customer-new-account.php:14
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/woocommerce/emails/plain/customer-new-account.php:13
+#, php-format
+msgid ""
+"Thanks for creating an account on %s. Your username is <strong>%s</strong>."
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/woocommerce/emails/customer-new-account.php:16
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/woocommerce/emails/plain/customer-new-account.php:15
+#, php-format
+msgid "You can access your account area here: %s."
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/woocommerce/emails/customer-note.php:14
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/woocommerce/emails/plain/customer-note.php:13
+msgid "Hello, a note has just been added to your order:"
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/woocommerce/emails/customer-note.php:18
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/woocommerce/emails/plain/customer-note.php:21
+msgid "For your reference, your order details are shown below."
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/woocommerce/emails/customer-processing-order.php:14
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/woocommerce/emails/plain/customer-processing-order.php:13
+msgid ""
+"Your order has been received and is now being processed. Your order details "
+"are shown below for your reference:"
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/woocommerce/emails/customer-reset-password.php:14
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/woocommerce/emails/plain/customer-reset-password.php:13
+msgid "Someone requested that the password be reset for the following account:"
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/woocommerce/emails/customer-reset-password.php:15
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/woocommerce/emails/plain/customer-reset-password.php:15
+#, php-format
+msgid "Username: %s"
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/woocommerce/emails/customer-reset-password.php:16
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/woocommerce/emails/plain/customer-reset-password.php:16
+msgid "If this was a mistake, just ignore this email and nothing will happen."
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/woocommerce/emails/customer-reset-password.php:17
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/woocommerce/emails/plain/customer-reset-password.php:17
+msgid "To reset your password, visit the following address:"
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/woocommerce/emails/customer-reset-password.php:20
+msgid "Click here to reset your password"
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/woocommerce/emails/email-addresses.php:18
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/woocommerce/emails/plain/email-addresses.php:12
+msgid "Billing address"
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/woocommerce/emails/email-addresses.php:28
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/woocommerce/emails/plain/email-addresses.php:17
+msgid "Shipping address"
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/woocommerce/emails/email-order-items.php:34
+msgid "This product is no longer available"
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/woocommerce/emails/email-order-items.php:76
+#, php-format
+msgid "Download %d:"
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/woocommerce/emails/email-order-items.php:78
+msgid "Download:"
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/woocommerce/emails/plain/admin-new-order.php:19
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/woocommerce/emails/plain/customer-completed-order.php:19
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/woocommerce/emails/plain/customer-invoice.php:20
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/woocommerce/emails/plain/customer-note.php:27
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/woocommerce/emails/plain/customer-processing-order.php:19
+#, php-format
+msgid "Order number: %s"
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/woocommerce/emails/plain/admin-new-order.php:20
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/woocommerce/emails/plain/customer-completed-order.php:20
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/woocommerce/emails/plain/customer-invoice.php:21
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/woocommerce/emails/plain/customer-note.php:28
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/woocommerce/emails/plain/customer-processing-order.php:20
+#, php-format
+msgid "Order date: %s"
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/woocommerce/emails/plain/admin-new-order.php:20
+msgid "jS F Y"
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/woocommerce/emails/plain/customer-completed-order.php:38
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/woocommerce/emails/plain/customer-note.php:46
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/woocommerce/emails/plain/customer-processing-order.php:38
+msgid "Your details"
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/woocommerce/emails/plain/email-order-items.php:28
+#, php-format
+msgid "Quantity: %s"
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/woocommerce/emails/plain/email-order-items.php:31
+#, php-format
+msgid "Cost: %s"
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/woocommerce/loop/add-to-cart.php:17
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/woocommerce/loop/add-to-cart.php:41
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/woocommerce/loop/add-to-cart.php:50
+msgid "Read More"
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/woocommerce/loop/add-to-cart.php:33
+msgid "Select options"
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/woocommerce/loop/add-to-cart.php:37
+msgid "View options"
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/woocommerce/loop/add-to-cart.php:46
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/woocommerce/single-product/add-to-cart/grouped.php:45
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/woocommerce/single-product/add-to-cart/grouped.php:77
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/woocommerce/single-product/add-to-cart/simple.php:44
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/woocommerce/single-product/add-to-cart/variable.php:83
+msgid "Add to cart"
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/woocommerce/loop/orderby.php:21
+msgid "Default sorting"
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/woocommerce/loop/orderby.php:22
+msgid "Sort by popularity"
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/woocommerce/loop/orderby.php:23
+msgid "Sort by average rating"
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/woocommerce/loop/orderby.php:24
+msgid "Sort by newness"
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/woocommerce/loop/orderby.php:25
+msgid "Sort by price: low to high"
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/woocommerce/loop/orderby.php:26
+msgid "Sort by price: high to low"
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/woocommerce/loop/result-count.php:28
+msgid "Showing the single result"
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/woocommerce/loop/result-count.php:30
+#, php-format
+msgid "Showing all %d results"
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/woocommerce/loop/sale-flash.php:16
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/woocommerce/single-product/sale-flash.php:16
+msgid "Sale!"
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/woocommerce/myaccount/form-change-password.php:20
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/woocommerce/myaccount/form-lost-password.php:31
+msgid "New password"
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/woocommerce/myaccount/form-change-password.php:24
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/woocommerce/myaccount/form-lost-password.php:35
+msgid "Re-enter new password"
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/woocommerce/myaccount/form-change-password.php:29
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/woocommerce/myaccount/form-lost-password.php:45
+msgid "Save"
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/woocommerce/myaccount/form-edit-address.php:43
+msgid "Save Address"
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/woocommerce/myaccount/form-login.php:26
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/woocommerce/myaccount/form-login.php:40
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/woocommerce/shop/form-login.php:31
+msgid "Login"
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/woocommerce/myaccount/form-login.php:29
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/woocommerce/myaccount/form-lost-password.php:24
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/woocommerce/shop/form-login.php:20
+msgid "Username or email"
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/woocommerce/myaccount/form-login.php:33
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/woocommerce/myaccount/form-login.php:85
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/woocommerce/shop/form-login.php:24
+msgid "Password"
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/woocommerce/myaccount/form-login.php:50
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/woocommerce/shop/form-login.php:33
+msgid "Lost Password?"
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/woocommerce/myaccount/form-login.php:60
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/woocommerce/myaccount/form-login.php:101
+msgid "Register"
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/woocommerce/myaccount/form-login.php:66
+msgid "Username"
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/woocommerce/myaccount/form-login.php:89
+msgid "Re-enter password"
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/woocommerce/myaccount/form-lost-password.php:22
+msgid ""
+"Lost your password? Please enter your username or email address. You will "
+"receive a link to create a new password via email."
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/woocommerce/myaccount/form-lost-password.php:28
+msgid "Enter a new password below."
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/woocommerce/myaccount/form-lost-password.php:45
+msgid "Reset Password"
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/woocommerce/myaccount/my-account.php:19
+#, php-format
+msgid ""
+"Hello, <strong>%s</strong>. From your account dashboard you can view your "
+"recent orders, manage your shipping and billing addresses and <a href=\"%s"
+"\">change your password</a>."
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/woocommerce/myaccount/my-address.php:17
+msgid "My Addresses"
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/woocommerce/myaccount/my-address.php:23
+msgid "My Address"
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/woocommerce/myaccount/my-address.php:35
+msgid "The following addresses will be used on the checkout page by default."
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/woocommerce/myaccount/my-address.php:45
+msgid "Edit"
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/woocommerce/myaccount/my-address.php:64
+msgid "You have not set up this type of address yet."
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/woocommerce/myaccount/my-downloads.php:18
+msgid "Available downloads"
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/woocommerce/myaccount/my-orders.php:26
+msgid "Recent Orders"
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/woocommerce/myaccount/my-orders.php:32
+msgid "Order"
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/woocommerce/myaccount/my-orders.php:33
+msgid "Date"
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/woocommerce/myaccount/my-orders.php:77
+msgid "Cancel"
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/woocommerce/myaccount/my-orders.php:82
+msgid "View"
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/woocommerce/order/form-tracking.php:17
+msgid ""
+"To track your order please enter your Order ID in the box below and press "
+"return. This was given to you on your receipt and in the confirmation email "
+"you should have received."
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/woocommerce/order/form-tracking.php:19
+msgid "Order ID"
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/woocommerce/order/form-tracking.php:19
+msgid "Found in your order confirmation email."
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/woocommerce/order/form-tracking.php:20
+msgid "Billing Email"
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/woocommerce/order/form-tracking.php:20
+msgid "Email you used during checkout."
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/woocommerce/order/form-tracking.php:23
+msgid "Track"
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/woocommerce/order/order-details.php:16
+msgid "Order Details"
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/woocommerce/order/order-details.php:64
+#, php-format
+msgid "Download file%s"
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/woocommerce/order/order-details.php:90
+msgid "Order Again"
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/woocommerce/order/order-details.php:102
+msgid "Telephone:"
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/woocommerce/order/order-details.php:119
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/woocommerce/order/order-details.php:134
+msgid "N/A"
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/woocommerce/order/tracking.php:18
+#, php-format
+msgid "Order %s which was made %s has the status &ldquo;%s&rdquo;"
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/woocommerce/order/tracking.php:20
+msgid "and was completed"
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/woocommerce/order/tracking.php:20
+msgid " ago"
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/woocommerce/order/tracking.php:31
+msgid "Order Updates"
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/woocommerce/order/tracking.php:37
+msgid "l jS \\o\\f F Y, h:ia"
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/woocommerce/shop/breadcrumb.php:63
+msgid "Products tagged &ldquo;"
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/woocommerce/shop/breadcrumb.php:91
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/woocommerce/shop/breadcrumb.php:190
+msgid "Search results for &ldquo;"
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/woocommerce/shop/breadcrumb.php:148
+msgid "Error 404"
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/woocommerce/shop/breadcrumb.php:194
+msgid "Posts tagged &ldquo;"
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/woocommerce/shop/breadcrumb.php:199
+msgid "Author:"
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/woocommerce/single-product/meta.php:19
+msgid "SKU:"
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/woocommerce/single-product/product-attributes.php:28
+msgid "Weight"
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/woocommerce/single-product/product-attributes.php:37
+msgid "Dimensions"
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/woocommerce/single-product/related.php:36
+msgid "Related Products"
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/woocommerce/single-product/review.php:26
+#, php-format
+msgid "Rated %d out of 5"
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/woocommerce/single-product/review.php:33
+msgid "Your comment is awaiting approval"
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/woocommerce/single-product/review.php:40
+msgid "verified owner"
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/woocommerce/single-product/up-sells.php:39
+msgid "You may also like&hellip;"
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/woocommerce/single-product/add-to-cart/variable.php:24
+msgid "Choose an option"
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/woocommerce/single-product/add-to-cart/variable.php:69
+msgid "Clear selection"
+msgstr ""
+
+#: /Users/mondre/Sites/wordpress.mu/wp-content/themes/carbon/woocommerce/single-product/tabs/description.php:14
+msgid "Product Description"
+msgstr ""
