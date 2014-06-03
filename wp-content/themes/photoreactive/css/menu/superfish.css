@@ -153,7 +153,7 @@
 		content: " ";
 		height:100%;
 		display: block;
-		border-left:4px solid #fff;
+		/*border-left:4px solid #fff;*/
 	}
 	li.current-menu-item .sub-menu li a:before,
 	li.current-menu-parent .sub-menu li a:before,
