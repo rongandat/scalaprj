@@ -55,3 +55,32 @@
     }
     ?>
 </div>
+
+<div class="login-popup">
+    <a href="javascript:void(0)" class="login-btn">Login</a>
+    <div class="clear"></div>
+    <div class="login-scroll">
+        <form action="" method="post">
+            <h2>Account Log In</h2>
+            <div class="login-input">
+                <span>Email: </span>
+                <input type="text" name="email" value="">
+            </div>
+            <div class="clear"></div>
+            <div class="login-input">
+                <span>Password: </span>
+                <input type="password" name="password" value="">
+            </div>
+            <div class="clear"></div>
+            <div class="login-input remember">
+                <span>&nbsp;</span>
+                <input type="checkbox" name="remember" id="remember" value="1">
+                <label for="remember">Remember me</label>
+            </div>
+            <div class="clear"></div>
+            <button type="submit" name="signin">Sign in</button>
+            <div class="clear"></div>
+        </form>
+        <a class="register-suggest">If you don’t have an account, please register here</a>
+    </div>
+</div>
