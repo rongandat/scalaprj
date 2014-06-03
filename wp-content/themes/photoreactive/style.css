@@ -99,7 +99,7 @@ table, caption, tbody, tfoot, thead, tr, th, td {
 	font-weight: inherit;
 	font-style: inherit;
 	font-size: 100%;
-	font-family: inherit;
+	font-family: HelveticaNeue;
 	vertical-align: baseline;
 }
 :focus {
@@ -136,7 +136,7 @@ blockquote, q {
 *{ padding: 0px; }
 body, html{ height: 100%; margin: 0;height: auto; min-height: 100%; }
 body{
-	font: 300 15px/1.625 "Source Sans Pro","Helvetica Neue",Helvetica,Arial,sans-serif;
+	font: 300 15px/1.625 "HelveticaNeue","Helvetica Neue",Helvetica,Arial,sans-serif;
 	background-color: #000;
 	background-repeat: repeat;
 	background-attachment:fixed;

@@ -27,7 +27,7 @@
     font-size: 28px;
 }
 .responsive-menu-wrap {
-    background:rgba(000, 0, 0, 0.4);
+    background:rgba(000, 0, 0, 0.42);
     color:#fff;
     width: 320px;
     height: 100%;
@@ -35,6 +35,7 @@
     /*opacity: 0.3;*/
     font-family: HelveticaNeue;
     position: relative;
+    float: left;
 }
 
 .responsive-mobile-menu{
@@ -104,13 +105,13 @@
 .responsive-menu-wrap div.copyright{
     display:block;
     padding: 0 50px;
-    
+
 }
 
 .responsive-menu-wrap div.copyright span{
     border-top: 1px solid #706958;
     padding: 13px 0;
-    
+
     font-size:10px;
     color:#fff;
     text-align: center;
@@ -124,4 +125,120 @@
     width: 100%;
     height: 60px;
     padding-top: 30px;
+}
+
+
+.login-popup{
+    display: block;
+    float: right;
+    padding: 0;
+    margin: 0;
+    background:none;
+    width: 370px;
+    color: #fff;
+}
+
+.login-popup a.login-btn{
+    background:rgba(000, 0, 0, 0.42);
+    width: 110px;
+    height: 23px;
+    text-align: center;
+    vertical-align: central;
+    text-transform: uppercase;
+    font-size: 11px;
+    padding: 5px 0 0 0;
+    margin: 0;
+    float: right;
+    color: #fff;
+}
+
+.login-popup .login-scroll{
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    color: #fff;
+    background:rgba(000, 0, 0, 0.42);
+}
+
+.login-popup .login-scroll form{
+    padding: 0 66px;
+}
+
+.login-popup .login-scroll h2{
+    text-transform: uppercase;
+    font-size: 20px;
+    text-transform: uppercase;
+    padding: 27px 0 17px;
+    text-align: right;
+
+}
+
+.login-popup .login-scroll .login-input{
+    padding: 7px 0;
+    display: block;
+
+}
+
+
+.login-popup .login-scroll .login-input input[type="text"], 
+.login-popup .login-scroll .login-input input[type="password"]{
+    background: #fafec0;
+    width: 145px;
+    padding: 3px;
+    font-size: 11px;
+    color: #000;
+    height: 11px;
+    border: 1px solid rgba(105, 106, 80, 0.4);
+    border-radius: 0;
+    float: right;
+    -webkit-background-clip: padding-box; /* for Safari */
+    background-clip: padding-box;
+}
+
+.login-popup .login-scroll .login-input span{
+    width: 65px;
+    float: left;
+    padding-right: 15px;
+    padding-top: 1px;
+    text-align: right;
+    font-size: 11px;
+    text-transform: uppercase;
+}
+
+.login-popup .login-scroll .login-input input{
+    float: left;
+}
+
+.login-popup .login-scroll .login-input.remember{
+    padding-top: 15px;
+}
+
+.login-popup .login-scroll .login-input label{
+    font-size: 11px;
+    text-transform: uppercase;
+    float: left;
+    padding-left: 10px;
+}
+
+.login-popup .login-scroll button{
+    float: right;
+    padding: 6px 30px;
+    background:rgba(000, 0, 0, 0.6);
+    border: 0;
+    border-radius: 0;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 11px;
+    margin: 25px 0 20px;
+}
+
+
+.login-popup .login-scroll a.register-suggest {
+    background: url("../../images/icons/register-suggest-btn.png") no-repeat scroll right center rgba(0, 0, 0, 0);
+    clear: both;
+    color: #CA8102;
+    display: block;
+    font-size: 12px;
+    margin: 0 35px 15px;
+    padding: 0 10px 13px;
 }
