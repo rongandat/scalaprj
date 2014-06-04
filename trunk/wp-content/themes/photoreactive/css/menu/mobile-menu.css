@@ -49,6 +49,7 @@
     margin:0 auto;
     text-align: center;
     padding-top:5px;
+    display: none;
 }
 .responsive-mobile-menu #searchform i {
     color:#000;
@@ -63,19 +64,47 @@
 .responsive-mobile-menu #searchbutton {
 
 }
-.responsive-mobile-menu ul li a {
-    font-size:12px;
-    color:#fff;
-    letter-spacing: 0.5px;
+
+.responsive-mobile-menu ul.sub-menu {
+}
+.responsive-mobile-menu ul{
+    padding: 0 50px;
+}
+.responsive-mobile-menu li {
     display:block;
     text-align: right;
     font-family: HelveticaNeue;
     border-top: 1px solid #706958;
-    padding: 13px 0;
+    padding: 5px 0;
+    text-transform: uppercase;  
 }
 
-.responsive-mobile-menu ul li.menu-item-has-children a{
-    background: url(../../images/icons/arrow-menu.png) no-repeat 10px center;
+
+.responsive-mobile-menu ul li a {
+    font-size:11px;
+    color:#fff;
+    letter-spacing: 0.5px;
+}
+
+.responsive-mobile-menu ul li.menu-item-has-children{
+    background: url(../../images/icons/arrow-menu.png) no-repeat 10px 10px;
+    cursor: pointer;
+
+}
+
+.responsive-mobile-menu ul li.menu-item-has-children ul{
+    padding: 2px 0;
+    
+    
+}
+
+.responsive-mobile-menu ul li.menu-item-has-children ul li{
+    display: block;
+    border: 0;
+}
+
+.responsive-mobile-menu ul li.menu-item-has-children ul li a{
+    font-size: 9px;
 }
 
 .responsive-mobile-menu ul.sub-menu{
@@ -89,15 +118,10 @@
     font-family: HelveticaNeue;
 }
 
-.responsive-mobile-menu li:first-child a{
-    border-left: 5px solid #fff;
+.responsive-mobile-menu li:first-child{
+    border-left: 4px solid #fff;
 }
-.responsive-mobile-menu ul.sub-menu {
-}
-.responsive-mobile-menu li {
-    display:block;
-    padding: 0 50px;
-}
+
 .responsive-mobile-menu li a:hover {
     /*background:#fff;*/
 }
@@ -187,7 +211,7 @@
     padding: 3px;
     font-size: 11px;
     color: #000;
-    height: 11px;
+    height: 18px;
     border: 1px solid rgba(105, 106, 80, 0.4);
     border-radius: 0;
     float: right;
@@ -240,5 +264,160 @@
     display: block;
     font-size: 12px;
     margin: 0 35px 15px;
-    padding: 0 10px 13px;
+    padding: 3px 10px 13px;
+}
+
+.scala-popup{
+    background: none repeat scroll 0 0 #FFFFFF;
+    display: none;
+    left: 330px;
+    padding: 25px 80px;
+    position: absolute;
+    top: 15px;
+    width: 865px;
+}
+
+.scala-popup .header{
+    padding: 0 0 15px 0;
+    border-bottom: 1px solid #7f8080;
+    position: relative;
+}
+
+.scala-popup .close-popup{
+    position: absolute;
+    width: 30px;
+    height: 40px;
+    background: url('../../images/icons/close-popup.png') no-repeat center center;
+    top: 20px;
+    right: 20px;
+    cursor: pointer;
+}
+
+.scala-popup .header h2{
+    color: #000;
+    font-size: 16px;
+    padding: 0 0 10px 0;
+}
+
+
+
+.scala-popup .header p{
+    font-size: 11px;
+    color: #000;
+}
+
+.scala-popup .content{
+    
+    color: #999999;
+    font-size: 11px;
+    padding: 25px 0 155px;
+}
+
+.scala-popup .content input[type="text"],
+.scala-popup .content input[type="password"]{
+    height: 22px;
+    width: 135px;
+    background: url('../../images/icons/input-text-left.png'), url('../../images/icons/image-text-right.png') , url('../../images/icons/image-text-center.png');
+    background-position: left top, right top, left top ;
+    background-repeat: no-repeat, no-repeat, repeat-x;
+    padding: 0 5px;
+    font-size: 11px;
+    border: 0;
+    border-radius: 0;
+}
+
+
+/* The CSS */
+
+.scala-popup .content span.label_select {
+    position:relative;
+    height: 22px;
+}
+
+.scala-popup .content label{
+    width: 120px;
+    float: left;
+}
+
+.scala-popup .content label[for="ext"]{
+    padding-left: 25px;
+    width: 25px;
+}
+
+.scala-popup .content input#ext{
+    width: 55px;
+}
+.scala-popup .content span{
+    display: block;
+    float: left;
+}
+
+.scala-popup .content span.label_select:before {
+    background: url("../../images/icons/select-box-right.png") no-repeat scroll right top rgba(0, 0, 0, 0);
+    content: "";
+    display: block;
+    height: 22px;
+    pointer-events: none;
+    position: absolute;
+    right: -1px;
+    top: 0;
+    width: 25px;
+}
+.scala-popup .content select{
+    height: 22px;
+    background: url('../../images/icons/select-box-left.png'), url('../../images/icons/select-box-right.png'), url('../../images/icons/select-box-center.png');
+    background-position: left top,right top,center top ;
+    background-repeat: no-repeat,no-repeat, repeat-x;
+    padding: 3px 5px 0;
+    font-size: 11px;
+    border: 0;
+    border-radius: 0;
+    color: #999999;
+}
+
+.scala-popup .input-box{
+    padding: 6px 0 0 5px;
+}
+
+.scala-popup .input-box input{
+    float: left;
+}
+
+.scala-popup .input-box i{
+    float: left;
+    display: block;
+    padding-left: 5px;
+}
+
+.scala-popup .input-box p{
+    display: block;
+    float: left;
+    padding-left: 120px;
+}
+
+.scala-popup .content h3{
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.scala-popup .content .content-left{
+    float: left;
+    width: 50%;
+}
+
+.scala-popup .content .content-right{
+    float: right;
+    width: 50%;
+}
+
+.scala-popup h3.thanks{
+    font-size: 16px;
+    color: #000;
+}
+
+.scala-popup p.msg{
+    padding: 10px 0 35px;
+}
+#register-success-form.scala-popup .header{
+    border: 0;
 }

@@ -296,9 +296,8 @@ Logo
 
 .logo {
 	line-height: 0;
-	margin-bottom: 50px;
-	margin-left: 50px;
-	margin-top: 101px;
+	margin: 70px 60px 35px;
+	margin-top: 50px;
 	position: relative;
 	z-index: 20;
 	}
@@ -1281,6 +1280,10 @@ hr, .entry-content hr {
 	    line-height: 12px;
 	    margin-bottom: 20px;
 	    text-transform: uppercase;
+}
+
+.dsl-block{
+    display: block;
 }
 
 /* **********************
@@ -8362,4 +8365,12 @@ Upsells, Cross sells and Related*/
 .woocommerce ul.products li.product a img,
 .woocommerce-page ul.products li.product a img {
 	max-width:100.2% !important;
+}
+
+.hidden{
+    display: none;
+}
+
+h3.personal{
+    width: 235px;
 }

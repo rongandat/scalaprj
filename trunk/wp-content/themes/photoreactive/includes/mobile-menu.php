@@ -1,22 +1,19 @@
 <div class="responsive-menu-wrap">
-    <!--	<div class="mobile-menu-toggle">
-                    <span class="mobile-menu-icon"><i class="icon-reorder"></i></span>
-                                    <div class="logo-mobile">
-    <?php
-    $main_logo = of_get_option('main_logo');
-    $responsive_logo = of_get_option('responsive_logo');
-    if ($main_logo <> "") {
-        if ($responsive_logo <> "") {
-            echo '<img class="logoimage" src="' . $responsive_logo . '" alt="logo" />';
+    <div class="logo" id="responsive-menu-logo">
+        <?php
+        $main_logo = of_get_option('main_logo');
+        $responsive_logo = of_get_option('responsive_logo');
+        if ($main_logo <> "") {
+            if ($responsive_logo <> "") {
+                echo '<img class="logoimage" src="' . $responsive_logo . '" alt="logo" />';
+            } else {
+                echo '<img class="logoimage" src="' . $main_logo . '" alt="logo" />';
+            }
         } else {
-            echo '<img class="logoimage" src="' . $main_logo . '" alt="logo" />';
+            echo '<img class="logo-light" src="' . MTHEME_PATH . '/images/logo.png" alt="logo" />';
         }
-    } else {
-        echo '<img class="logo-light" src="' . MTHEME_PATH . '/images/logo.png" alt="logo" />';
-    }
-    ?>
-                                    </div>
-            </div>-->
+        ?>
+    </div>
     <div class="responsive-mobile-menu">
         <?php
         get_search_form();
@@ -59,7 +56,7 @@
 <div class="login-popup">
     <a href="javascript:void(0)" class="login-btn">Login</a>
     <div class="clear"></div>
-    <div class="login-scroll">
+    <div class="login-scroll hidden">
         <form action="" method="post">
             <h2>Account Log In</h2>
             <div class="login-input">
@@ -81,6 +78,6 @@
             <button type="submit" name="signin">Sign in</button>
             <div class="clear"></div>
         </form>
-        <a class="register-suggest">If you don’t have an account, please register here</a>
+        <a class="register-suggest" href="javascript:void(0)">If you don’t have an account, please register here</a>
     </div>
 </div>
