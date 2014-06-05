@@ -21,6 +21,7 @@ if ( isSet($fullscreen_file) ) {
 	require_once ( MTHEME_INCLUDES . $fullscreen_file );
 } else {
 	get_header();
+        
 	?>
 	<div class="container-wrapper container-boxed"> 
 		<div class="page-contents-wrap">

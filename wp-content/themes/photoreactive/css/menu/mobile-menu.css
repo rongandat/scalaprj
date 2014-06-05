@@ -27,14 +27,14 @@
     font-size: 28px;
 }
 .responsive-menu-wrap {
-    background:rgba(000, 0, 0, 0.42);
+    background:rgba(000, 0, 0, 0.5);
     color:#fff;
     width: 320px;
     height: 100%;
-    z-index: 999;
+    z-index: 99;
     /*opacity: 0.3;*/
     font-family: HelveticaNeue;
-    position: relative;
+    /*position: absolute;*/
     float: left;
 }
 
@@ -160,10 +160,14 @@
     background:none;
     width: 370px;
     color: #fff;
+    position: fixed;
+    right: 0;
+    top: 0;
+    z-index: 999;
 }
 
 .login-popup a.login-btn{
-    background:rgba(000, 0, 0, 0.42);
+    background:rgba(000, 0, 0, 0.5);
     width: 110px;
     height: 23px;
     text-align: center;
@@ -181,7 +185,7 @@
     padding: 0;
     margin: 0;
     color: #fff;
-    background:rgba(000, 0, 0, 0.42);
+    background:rgba(000, 0, 0, 0.5);
 }
 
 .login-popup .login-scroll form{
@@ -270,11 +274,12 @@
 .scala-popup{
     background: none repeat scroll 0 0 #FFFFFF;
     display: none;
-    left: 330px;
+    right: 10px;
     padding: 25px 80px;
     position: absolute;
-    top: 15px;
-    width: 865px;
+    top: 18px;
+    width: 841px;
+    z-index: 999;
 }
 
 .scala-popup .header{

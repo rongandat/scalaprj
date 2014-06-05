@@ -8,9 +8,11 @@
 @media only screen and (max-width: 1400px) {
 
 	.container-wrapper {
-		width:1024px;
-		margin: 15px auto 15px auto;
+		width:1000px;
+		margin: 0 330px;
 		float: none;
+                display: block;
+                overflow: hidden;
 	}
 	.photowall-wrap {
 		margin-left: 1px !important;

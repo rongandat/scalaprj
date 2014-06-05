@@ -41,7 +41,7 @@
         if (!mtheme_is_fullscreen_post()) {
             echo '<div class="container-wrapper">';
             echo '<div class="container-boxed">';
-            get_template_part('header', 'title');
+            
         }
         ?>
 
@@ -187,6 +187,7 @@
                     </div>
                     <div class="clear"></div>
                 </div>
+                <div class="clear"></div>
             </div>
         </div>
 

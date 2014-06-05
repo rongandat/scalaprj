@@ -5,6 +5,7 @@ Template Name: Contact Template
 ?>
 <?php
 get_header(); ?>
+get_template_part('header', 'title');
 <?php
 	$mtheme_pagestyle= get_post_meta($post->ID, MTHEME . '_pagestyle', true);
 	$floatside="float-left";
