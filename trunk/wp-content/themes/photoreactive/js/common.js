@@ -51,8 +51,6 @@ jQuery(document).ready(function($) {
         showRegisterPopup();
     });
 
-    $('.scala-popup').css('height', (jQuery(window).height() - 80) + 'px');
-
     /**
      * showLoginPopup
      */
@@ -462,11 +460,15 @@ jQuery(document).ready(function($) {
  */
 function resizeMenu() {
     var height = jQuery(window).height();
-    var height_menu = height - 150;
-    var height_image = 230;
+    
+    var height_image = 100;
+    var body_height = 0;
     var min_height = jQuery('#menu-main-menu').height();
+    body_height = jQuery('.global-container-wrapper').outerHeight() + 1;
+    if (height < body_height)
+        height = body_height;
+    var height_menu = height - 150;
     jQuery('.responsive-menu-wrap').css('height', height + 'px');
-
     if (height_menu > (min_height + height_image))
         jQuery('.responsive-mobile-menu').css('height', (height_menu - height_image) + 'px');
     else

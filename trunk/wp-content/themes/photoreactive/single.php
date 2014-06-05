@@ -5,6 +5,7 @@
 ?>
 <?php get_header(); ?>
 <?php
+
 $mtheme_pagestyle= get_post_meta($post->ID, MTHEME . '_pagestyle', true);
 if ($mtheme_pagestyle != "nosidebar") {
 	$floatside="float-left";
