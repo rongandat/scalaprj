@@ -1,3 +1,7 @@
+jQuery(window).load(function() {
+    resizeMenu()
+});
+
 jQuery(document).ready(function($) {
     "use strict";
     var deviceAgent = navigator.userAgent.toLowerCase();
@@ -11,7 +15,18 @@ jQuery(document).ready(function($) {
         $('.fullpage-block').css('background-attachment', 'scroll');
     }
 
-    resizeMenu()
+
+    $('#menu-show-btn').click(function() {
+        if ($('.responsive-menu-wrap').is(':hidden')) {
+            $('.responsive-menu-wrap').show();
+            $('.responsive-menu-wrap').css('height', '100%');
+        }else{
+             $('.responsive-menu-wrap').hide();
+        }
+
+    });
+
+
     $(window).resize(function() {
         resizeMenu()
     });
@@ -131,7 +146,7 @@ jQuery(document).ready(function($) {
         autoArrows: true,
         dropShadows: true,
         onInit: function() {
-            $(".homemenu ul.sub-menu").css('display', 'none');
+//            $(".homemenu ul.sub-menu").css('display', 'none');
         },
         onHide: function() {
             footer_layout_trigger();
@@ -460,11 +475,19 @@ jQuery(document).ready(function($) {
  */
 function resizeMenu() {
     var height = jQuery(window).height();
-    
+
+    var wall_lastWindowWidth = jQuery(window).width();
+    if (wall_lastWindowWidth < 900) {
+        return false;
+    }
+
     var height_image = 100;
     var body_height = 0;
     var min_height = jQuery('#menu-main-menu').height();
     body_height = jQuery('.global-container-wrapper').outerHeight() + 1;
+//    if (jQuery('#photowall-container').length){
+//        body_height = jQuery('#photowall-container').height();
+//    }
     if (height < body_height)
         height = body_height;
     var height_menu = height - 150;

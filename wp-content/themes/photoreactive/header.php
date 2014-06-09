@@ -41,7 +41,6 @@
         if (!mtheme_is_fullscreen_post()) {
             echo '<div class="container-wrapper">';
             echo '<div class="container-boxed">';
-            
         }
         ?>
 
@@ -54,139 +53,145 @@
                 <p>If you have any questions, please feel free to call us at 310-929-7211</p>
             </div>
             <div class="content">
-                <div class="content-left">
-                    <h3 class="float-left personal">Your Personal Detals</h3>
-                    <p class="float-left">* Required information</p>
-                    <div class="clear"></div>
-                    <div class="input-box">
-                        <label for="firstname">First Name:</label>
-                        <input type="text" name="firstname" id="firstname" value=""> <i>*</i>
-                    </div>
-                    <div class="clear"></div>
-                    <div class="input-box">
-                        <label for="lastname">Last Name:</label>
-                        <input type="text" name="lastname" id="lastname" value=""> <i>*</i>
-                    </div>
-                    <div class="clear"></div>
-                    <div class="input-box">
-                        <label for="possition">Title/Position:</label>
-                        <input type="text" name="possition" id="possition" value=""> <i>*</i>
-                    </div>
-                    <div class="clear"></div>
-                    <div class="input-box">
-                        <label for="email">Email:</label>
-                        <input type="text" name="email" id="email" value=""> <i>*</i>
-                        <p>Not accepted: yahoo, aol, msn, hotmail, comcast</p>
-                    </div>
-                    <div class="clear"></div>
-                    <div class="input-box">
-                        <label for="website">Website:</label>
-                        <input type="text" name="website" id="website" value=""> <i>*</i>
-                    </div>
-                    <div class="clear"></div>
-                    <h3>Company Details</h3>
-                    <div class="clear"></div>
-                    <div class="input-box">
-                        <label for="companyname">Company Name:</label>
-                        <input type="text" name="companyname" id="companyname" value=""> <i>*</i>
-                    </div>
-                    <div class="clear"></div>
-                    <div class="input-box">
-                        <label for="business">Business:</label>
+                <form action="" method="post">
+                    <div class="content-left">
+                        <h3 class="float-left personal">Your Personal Detals</h3>
+                        <p class="float-left">* Required information</p>
+                        <div class="clear"></div>
+                        <div class="input-box">
+                            <label for="firstname">First Name:</label>
+                            <input type="text" name="firstname" id="firstname" value=""> <i>*</i>
+                        </div>
+                        <div class="clear"></div>
+                        <div class="input-box">
+                            <label for="lastname">Last Name:</label>
+                            <input type="text" name="lastname" id="lastname" value=""> <i>*</i>
+                        </div>
+                        <div class="clear"></div>
+                        <div class="input-box">
+                            <label for="title">Title/Position:</label>
+                            <input type="text" name="title" id="title" value=""> <i>*</i>
+                        </div>
+                        <div class="clear"></div>
+                        <div class="input-box">
+                            <label for="email_address">Email:</label>
+                            <input type="text" name="email_address" id="email_address" value=""> <i>*</i>
+                            <p>Not accepted: yahoo, aol, msn, hotmail, comcast</p>
+                        </div>
+                        <div class="clear"></div>
+                        <div class="input-box">
+                            <label for="website">Website:</label>
+                            <input type="text" name="website" id="website" value=""> <i>*</i>
+                        </div>
+                        <div class="clear"></div>
+                        <h3>Company Details</h3>
+                        <div class="clear"></div>
+                        <div class="input-box">
+                            <label for="company">Company Name:</label>
+                            <input type="text" name="company" id="company" value=""> <i>*</i>
+                        </div>
+                        <div class="clear"></div>
+                        <div class="input-box">
+                            <label for="customers_group">Business:</label>
 
-                        <span class="label_select">
-                            <select id="business" name="business">
-                                <option selected> Select Box </option>
-                                <option>Short Option</option>
-                                <option>This Is A Longer Option</option>
-                            </select>
-                        </span><i>*</i><div class="clear"></div>
+                            <span class="label_select">
+                                <select id="customers_group " name="customers_group">
+                                    <option selected> Select Box </option>
+                                    <option>Short Option</option>
+                                    <option>This Is A Longer Option</option>
+                                </select>
+                            </span><i>*</i><div class="clear"></div>
 
-                    </div>
-                    <div class="clear"></div>
-                    <div class="input-box">
-                        <label for="sales_rerritory">Sales Territory:</label>
-                        <input type="text" name="sales_rerritory" id="sales_rerritory" value="">
-                    </div>
-                    <div class="clear"></div>
-                    <h3>Your Address</h3>
-                    <div class="clear"></div>
-                    <div class="input-box">
-                        <label for="country">Country:</label>
-                        <span class="label_select">
-                            <select id="country" name="country">
-                                <option value="us">United State</option>
-                            </select>
-                        </span><i>*</i><div class="clear"></div>
-                    </div>
-                    <div class="clear"></div>
-                    <div class="input-box">
-                        <label for="street">Street:</label>
-                        <input type="text" name="street" id="street" value=""><i>*</i>
-                    </div>
-                    <div class="clear"></div>
-                    <div class="input-box">
-                        <label for="postcode">Post Code:</label>
-                        <input type="text" name="postcode" id="postcode" value=""><i>*</i>
-                    </div>
-                    <div class="clear"></div>
-                    <div class="input-box">
-                        <label for="city">City:</label>
-                        <input type="text" name="city" id="city" value=""><i>*</i>
-                    </div>
-                    <div class="clear"></div>
-                    <div class="input-box">
-                        <label for="state">State:</label>
-                        <span class="label_select">
-                            <select id="state" name="state">
-                                <option value="us">Alabma</option>
-                            </select>
-                        </span>
+                        </div>
+                        <div class="clear"></div>
+                        <div class="input-box">
+                            <label for="st">Sales Territory:</label>
+                            <input type="text" name="st" id="st" value="">
+                        </div>
+                        <div class="clear"></div>
+                        <h3>Your Address</h3>
+                        <div class="clear"></div>
+                        <div class="input-box">
+                            <label for="country">Country:</label>
+                            <span class="label_select">
+                                <select id="country" name="country">
+                                    <option value="us">United State</option>
+                                </select>
+                            </span><i>*</i><div class="clear"></div>
+                        </div>
+                        <div class="clear"></div>
+                        <div class="input-box">
+                            <label for="street_address">Street:</label>
+                            <input type="text" name="street_address" id="street_address" value=""><i>*</i>
+                        </div>
+                        <div class="clear"></div>
+                        <div class="input-box">
+                            <label for="postcode">Post Code:</label>
+                            <input type="text" name="postcode" id="postcode" value=""><i>*</i>
+                        </div>
+                        <div class="clear"></div>
+                        <div class="input-box">
+                            <label for="city">City:</label>
+                            <input type="text" name="city" id="city" value=""><i>*</i>
+                        </div>
+                        <div class="clear"></div>
+                        <div class="input-box">
+                            <label for="state">State:</label>
+                            <span class="label_select">
+                                <select id="state" name="state">
+                                    <option value="us">Alabma</option>
+                                </select>
+                            </span>
+                            <div class="clear"></div>
+                        </div>
                         <div class="clear"></div>
                     </div>
-                    <div class="clear"></div>
-                </div>
-                <div class="content-right">
-                    <h3>Your Contact Info</h3>
-                    <div class="clear"></div>
-                    <div class="input-box">
-                        <label for="phone">Telephone Number:</label>
-                        <input type="text" name="phone" id="phone" value="">
-                        <label for="ext">Ext.</label>
-                        <input type="text" name="ext" id="ext" value="">
-                        <i>*</i>
-                    </div>
-                    <div class="clear"></div>
-                    <div class="input-box">
-                        <label for="fax">Fax Number:</label>
-                        <input type="text" name="fax" id="fax" value="">
-                    </div>
-                    <div class="clear"></div>
-                    <h3>Your Password</h3>
-                    <div class="clear"></div>
-                    <div class="input-box">
-                        <label for="password">Password:</label>
-                        <input type="text" name="password" id="password" value="">
-                        <i>*</i>
-                    </div>
-                    <div class="clear"></div>
-                    <div class="input-box">
-                        <label for="passwordconfirm">Password Confirmation:</label>
-                        <input type="text" name="passwordconfirm" id="passwordconfirm" value="">
-                        <i>*</i>
-                    </div>
-                    <div class="clear"></div>
-                    <div class="input-box">
-                        <label for="referral">Referral:</label>
-                        <span class="label_select">
-                            <select id="referral" name="referral">
-                                <option value="us">United State</option>
-                            </select>
-                        </span><i>*</i><div class="clear"></div>
+                    <div class="content-right">
+                        <h3>Your Contact Info</h3>
+                        <div class="clear"></div>
+                        <div class="input-box">
+                            <label for="telephone">Telephone Number:</label>
+                            <input type="text" name="telephone" id="telephone" value="">
+                            <label for="customers_telephone_ext">Ext.</label>
+                            <input type="text" name="customers_telephone_ext" id="customers_telephone_ext" value="">
+                            <i>*</i>
+                        </div>
+                        <div class="clear"></div>
+                        <div class="input-box">
+                            <label for="fax">Fax Number:</label>
+                            <input type="text" name="fax" id="fax" value="">
+                        </div>
+                        <div class="clear"></div>
+                        <h3>Your Password</h3>
+                        <div class="clear"></div>
+                        <div class="input-box">
+                            <label for="password">Password:</label>
+                            <input type="text" name="password" id="password" value="">
+                            <i>*</i>
+                        </div>
+                        <div class="clear"></div>
+                        <div class="input-box">
+                            <label for="confirmation">Password Confirmation:</label>
+                            <input type="text" name="confirmation" id="confirmation" value="">
+                            <i>*</i>
+                        </div>
+                        <div class="clear"></div>
+                        <div class="input-box">
+                            <label for="other_option">Referral:</label>
+                            <span class="label_select">
+                                <select id="other_option" name="other_option">
+                                    <option value="Advertisement">Advertisement</option>
+                                    <option value="Referral">Referral</option>
+                                    <option value="Internet Search">Internet Search</option>
+                                    <option value="Other">Other</option>
+                                </select>
+                            </span><i>*</i><div class="clear"></div>
 
+                        </div>
+                        <div class="clear"></div>
                     </div>
-                    <div class="clear"></div>
-                </div>
+                    <button name="register-btn" id="register-btn" type="submit">Register</button> 
+                </form>
                 <div class="clear"></div>
             </div>
         </div>
