@@ -42,6 +42,8 @@
             echo '<div class="container-wrapper">';
             echo '<div class="container-boxed">';
         }
+
+        $conuntriesJson = file_get_contents(get_site_url() . '/catalog/get_country.php');
         ?>
 
         <div class="scala-popup" id="register-form">
@@ -53,7 +55,7 @@
                 <p>If you have any questions, please feel free to call us at 310-929-7211</p>
             </div>
             <div class="content">
-                <form action="" method="post">
+                <form action="" method="post" id="register-form-post">
                     <div class="content-left">
                         <h3 class="float-left personal">Your Personal Detals</h3>
                         <p class="float-left">* Required information</p>
@@ -115,7 +117,10 @@
                             <label for="country">Country:</label>
                             <span class="label_select">
                                 <select id="country" name="country">
-                                    <option value="us">United State</option>
+                                    <?php $conuntries = json_decode($conuntriesJson) ?>
+                                    <?php foreach ($conuntries as $code => $name): ?>
+                                        <option value="<?php echo $code ?>"><?php echo $name ?></option>
+                                    <?php endforeach; ?>
                                 </select>
                             </span><i>*</i><div class="clear"></div>
                         </div>
