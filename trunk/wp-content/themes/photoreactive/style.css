@@ -6838,10 +6838,46 @@ i.fontawesome {
     height: auto !important;
 }
 #photowall-container {
-    width:1024px;
+    width:75%;
     height:100%;
     margin-top: 2px;
     float:left;
+    margin-left: 5px;
+}
+@media only screen and (max-width: 1300px) {
+    #photowall-container {
+        width:73%;
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    #photowall-container {
+        width:71%;
+    }
+}
+
+@media only screen and (max-width: 1150px) {
+    #photowall-container {
+        width:69%;
+    }
+}
+@media only screen and (max-width: 1050px) {
+    #photowall-container {
+        width:66%;
+    }
+}
+@media only screen and (max-width: 950px) {
+    #photowall-container {
+        width:63%;
+    }
+}
+
+
+@media only screen and (max-width: 900px) {
+    #photowall-container {
+        width:100%;
+        margin: 0;
+    }
 }
 .photowall-item {
     width: 24.9%;
@@ -8375,4 +8411,16 @@ div.recent-single-carousel-wrap h3.item-title{
     font-size: 18px;
     font-weight: normal;
     text-align: center;
+}
+
+
+#register-btn {
+    background: none repeat scroll 0 0 #000000;
+    border: 0 none;
+    color: #FFFFFF;
+    float: right;
+    font-size: 11px;
+    margin-top: 50px;
+    padding: 5px 15px;
+    text-transform: uppercase;
 }

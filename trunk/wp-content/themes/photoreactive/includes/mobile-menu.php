@@ -1,3 +1,5 @@
+
+<div id="menu-show-btn" class="icon-align-justify"></div>
 <div class="responsive-menu-wrap">
     <div class="logo" id="responsive-menu-logo">
         <?php
@@ -17,6 +19,9 @@
     <div class="responsive-mobile-menu">
         <?php
         get_search_form();
+        ?>
+        <div class="clear"></div>
+        <?php
         // Responsive menu conversion to drop down list
         if (function_exists('wp_nav_menu')) {
             wp_nav_menu(array(

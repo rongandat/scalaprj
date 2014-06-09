@@ -8,16 +8,13 @@ jQuery(document).ready(function($) {
     //variables to confirm window height and width
     var wall_lastWindowHeight = $(window).height();
     var wall_lastWindowWidth = $(window).width();
-
     $(window).resize(function() {
-
         //confirm window was actually resized
         if ($(window).height() != wall_lastWindowHeight || $(window).width() != wall_lastWindowWidth) {
 
             //set this windows size
             wall_lastWindowHeight = $(window).height();
             wall_lastWindowWidth = $(window).width();
-
             //call my function
             photoWallInit();
             $(".photowall-content-wrap").css({"display": "block", "height": "100%", "width": "100%"});
@@ -41,13 +38,23 @@ jQuery(document).ready(function($) {
             $('.photowall-item').css('width', '33.2%');
             $('.photowall-wrap').css('marginLeft', '0');
 
+//            if (photow_window_width < 1000) {
+//                number_of_columns = 3;
+//                $('.photowall-item').css('width', '33.2%');
+//                $('.photowall-wrap').css('marginLeft', '0');
+//            }
+
             if (photow_window_width < 1300) {
-                number_of_columns = 3;
-                $('.photowall-item').css('width', '33.2%');
+                number_of_columns = 2;
+                $('.photowall-item').css('width', '49.9%');
                 $('.photowall-wrap').css('marginLeft', '0');
             }
+            
+            if(photow_window_width > 900){
+                $('#responsive-menu-wrap').show();
+            }
 
-            if (photow_window_width < 1000) {
+            if (photow_window_width < 900) {
                 number_of_columns = 2;
                 $('.photowall-item').css('width', '49.9%');
                 $('.photowall-wrap').css('marginLeft', '0');
@@ -59,6 +66,25 @@ jQuery(document).ready(function($) {
                 $('.photowall-wrap').css('marginLeft', '0');
                 $('.photowall-wrap').css('marginRight', '1px');
             }
+
+//            if (photow_window_width < 1300) {
+//                number_of_columns = 3;
+//                $('.photowall-item').css('width', '33.2%');
+//                $('.photowall-wrap').css('marginLeft', '0');
+//            }
+//
+//            if (photow_window_width < 1000) {
+//                number_of_columns = 2;
+//                $('.photowall-item').css('width', '49.9%');
+//                $('.photowall-wrap').css('marginLeft', '0');
+//            }
+//
+//            if (photow_window_width < 500) {
+//                number_of_columns = 1;
+//                $('.photowall-item').css('width', '99.9%');
+//                $('.photowall-wrap').css('marginLeft', '0');
+//                $('.photowall-wrap').css('marginRight', '1px');
+//            }
 
             //console.log(photow_window_width);
 
