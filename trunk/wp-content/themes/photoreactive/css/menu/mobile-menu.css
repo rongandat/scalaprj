@@ -519,12 +519,12 @@
     float: left;
 }
 
-.scala-popup .content label[for="ext"]{
+.scala-popup .content label[for="customers_telephone_ext"]{
     padding-left: 25px;
     width: 25px;
 }
 
-.scala-popup .content input#ext{
+.scala-popup .content input#customers_telephone_ext{
     width: 55px;
 }
 .scala-popup .content span{
