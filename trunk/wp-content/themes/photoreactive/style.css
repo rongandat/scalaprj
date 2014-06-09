@@ -6843,6 +6843,9 @@ i.fontawesome {
     margin-top: 2px;
     float:left;
     margin-left: 5px;
+    background-image: url("images/preloaders/circle-spinner.png");
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
 }
 @media only screen and (max-width: 1300px) {
     #photowall-container {

@@ -14,6 +14,13 @@ jQuery(document).ready(function($) {
     if (isIOS || isAndroid) {
         $('.fullpage-block').css('background-attachment', 'scroll');
     }
+    
+    
+    $('#register-form-post').submit(function(){
+        var datastring = $("#register-form-post").serialize();
+        console.log(datastring);
+        return false;
+    });
 
 
     $('#menu-show-btn').click(function() {
