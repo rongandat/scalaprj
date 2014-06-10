@@ -33,4 +33,5 @@ if ( post_password_required() ) {
 	}
 }
 ?>
+<div class="clear"></div>
 <?php get_footer(); ?>
