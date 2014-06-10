@@ -10,6 +10,7 @@ if (defined('ICL_LANGUAGE_CODE')) { // this is to not break code in case WPML is
     $_type  = get_post_type($featured_page);
     $featured_page = icl_object_id($featured_page, $_type, true, ICL_LANGUAGE_CODE);
 }
+
 $custom = get_post_custom( $featured_page );
 if ( isSet($custom[ MTHEME . "_fullscreen_type"][0]) ) {
 	$fullscreen_type = $custom[ MTHEME . "_fullscreen_type"][0];
