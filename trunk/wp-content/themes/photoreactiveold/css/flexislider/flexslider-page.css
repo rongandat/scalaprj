@@ -1,0 +1,235 @@
+.flexslider-container-page .flexslider {
+	overflow: hidden;
+}
+.flexslider-container-page ul,
+.flexslider-container-page ul li {
+	margin:0;
+	padding:0;
+}
+.sc_slideshowtitle {
+	background:#eee;
+    color: #000;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 14px;
+    padding: 20px 0;
+    width:100%;
+    text-align: center;
+}
+
+
+.portfolio-element .flexslider-container-page li,
+ul.portfolio-list li .flexslider-container-page li,
+ul.portfolio-one li .flexslider-container-page li,
+ul.portfolio-two li .flexslider-container-page li,
+ul.portfolio-three li .flexslider-container-page li,
+ul.portfolio-four li .flexslider-container-page li {
+	width:auto;
+	height:auto;
+	padding: 0;
+ 	margin: 0;
+}
+
+.portfolio-element li .flex-direction-nav,
+ul.portfolio-list li .flex-direction-nav,
+ul.portfolio-one li .flex-direction-nav,
+ul.portfolio-two li .flex-direction-nav,
+ul.portfolio-three li .flex-direction-nav,
+ul.portfolio-four li .flex-direction-nav {
+	width:35px;
+	height:70px;
+	padding: 0;
+ 	margin: 0;
+	position:absolute;
+	right:0;
+	z-index:90;
+}
+
+.portfolio-element li .flex-control-nav,
+ul.portfolio-list li .flex-control-nav,
+ul.portfolio-one li .flex-control-nav,
+ul.portfolio-two li .flex-control-nav,
+ul.portfolio-three li .flex-control-nav,
+ul.portfolio-four li .flex-control-nav {
+	width:auto !important;
+	height:auto !important;
+	z-index:90;
+}
+
+.portfolio-element li .flexslider-container-page .flex-direction-nav li a.next,
+ul.portfolio-list li .flexslider-container-page .flex-direction-nav li a.next,
+ul.portfolio-one li .flexslider-container-page .flex-direction-nav li a.next,
+ul.portfolio-two li .flexslider-container-page .flex-direction-nav li a.next,
+ul.portfolio-three li .flexslider-container-page .flex-direction-nav li a.next,
+ul.portfolio-four li .flexslider-container-page .flex-direction-nav li a.next {
+	left: 5px;
+	top:5px;
+	}
+.portfolio-element li .flexslider-container-page .flex-direction-nav li a.prev,
+ul.portfolio-list li .flexslider-container-page .flex-direction-nav li a.prev,
+ul.portfolio-one li .flexslider-container-page .flex-direction-nav li a.prev,
+ul.portfolio-two li .flexslider-container-page .flex-direction-nav li a.prev,
+ul.portfolio-three li .flexslider-container-page .flex-direction-nav li a.prev,
+ul.portfolio-four li .flexslider-container-page .flex-direction-nav li a.prev {
+	left: 5px;
+	top:34px;
+	}
+.portfolio-element li .flexslider-container-page .flex-direction-nav li a,
+ul.portfolio-list li .flexslider-container-page .flex-direction-nav li a,
+ul.portfolio-one li .flexslider-container-page .flex-direction-nav li a,
+ul.portfolio-two li .flexslider-container-page .flex-direction-nav li a,
+ul.portfolio-three li .flexslider-container-page .flex-direction-nav li a,
+ul.portfolio-four li .flexslider-container-page .flex-direction-nav li a { 
+	margin:0;
+	}
+
+.portfolio-grid-element .flexslider-container-page .flex-control-nav,
+.portfolio-element .flexslider-container-page .flex-control-nav {
+	display:none;
+}
+.portfolio-grid-element .flexslider-container-page .flex-direction-nav,
+.portfolio-element .flexslider-container-page .flex-direction-nav {
+	display:none;
+}
+
+.portfolio-element .flexslider-container-page {
+}
+ul.portfolio-four .flexslider-container-page {
+}
+
+ul.portfolio-three .flexslider-container-page {
+	height: 190px;
+}
+
+ul.portfolio-two .flexslider-container-page {
+	height: 285px;
+}
+
+ul.portfolio-one li .flexslider-container-page {
+    min-height: 100px;
+}
+
+ul.portfolio-list li .flexslider-container-page {
+    height: 195px;
+}
+
+.flexslider-container-page { 
+	width: 100%;
+	margin: 0 auto;
+	background-image:url(../../images/preloaders/circle-spinner.png);
+	background-repeat:no-repeat;
+	background-position:50% 50%;
+	}
+.portfolio-grid-element .flexslider-container-page,
+.portfolio-element .flexslider-container-page {
+	background-image:url(../../images/preloaders/circle-spinner.png);
+}
+
+.entry-content-wrapper .flexslider-container-page {
+	min-height: 50px;
+	}
+.entry-content .flexslider-container-page {
+	min-height:50px;
+}
+
+/* FlexSlider Necessary Styles
+*********************************/ 
+.flexslider-container-page  {width: 100%; margin: 0; padding: 0;  }
+.flexslider-container-page .slides li {display: none; list-style-type:none;} /* Hide the slides before the JS is loaded. Avoids image jumping */
+.flexslider-container-page .slides img {
+	max-width: 100%;
+	margin: 0 auto;
+	display: block;
+	}
+
+
+/* FlexSlider Default Theme
+*********************************/
+.flexslider-container-page {position: relative;}
+.flexslider-container-page .slides li {position: relative; }
+.flexslider-container-page .slides li a { border:none; }
+/* Suggested container for "Slide" animation setups. Can replace this with your own, if you wish */
+.flexslider-container-page .flexslider-container-page {position: relative;}
+
+
+/* Caption style */
+.flexslider-container-page .flex-caption { width: 97%; padding: 1% 2%; position: absolute; left: 0; bottom: 0; background:#000; background: rgba(0,0,0,.6); filter: alpha(opacity=60);text-align:center; color: #fff; font-size: 12px; line-height: 18px;}
+
+/* Direction Nav */
+.flexslider-container-page .flex-direction-nav { list-style-type:none; }
+.flexslider-container-page .flex-direction-nav li a {
+	width: 40px;
+	height: 40px;
+	display: block;
+	border:none;
+	background-image: url(../../images/flexislider/bg_direction_nav_page.png);
+	background-repeat: no-repeat;
+	background-color: #000;
+	background-position: 0 0;
+	position: absolute;
+	z-index:5;
+	cursor: pointer;
+	text-indent: -9999px;
+	opacity:0.6;
+		transition: all 0.2s;
+		-moz-transition: all 0.2s;
+		-webkit-transition: all 0.2s;
+		-o-transition: all 0.2s;
+	} /* set negative margin-top equal to half the height on the directional-nav for perfect vertical centering */
+.flexslider-container-page .flex-direction-nav li a.flex-next {
+	background-position: -40px 0;
+	right: 0;
+	}
+.flexslider-container-page .flex-direction-nav li a.flex-prev {
+	background-position: 0 0;
+	right: 40px;
+	}
+.flexslider-container-page .flex-direction-nav li a.flex-next,
+.flexslider-container-page .flex-direction-nav li a.flex-prev  {
+    top: 0;
+}
+.flexslider-container-page .flex-direction-nav li a:hover { 
+	opacity:1;
+		transition: all 0.2s;
+		-moz-transition: all 0.2s;
+		-webkit-transition: all 0.2s;
+		-o-transition: all 0.2s;
+}
+
+/* Control Nav */
+.flexslider-container-page .flex-control-nav { 
+	list-style-type:none; position: absolute;
+	top: 10px;
+	left: 0;
+	width:100%;
+	z-index:80;
+	text-align: center;
+	display:none;
+	} /* set negative margin-left equal to half the width on the control-nav for perfect centering */
+.entry-content .flexslider-container-page .flex-control-nav { 
+	margin-bottom: 0;
+}
+.testimonials-wrap .flexslider-container-page .flex-control-nav {
+	background:transparent;
+	}
+.flexslider-container-page .flex-control-nav li {margin: 0; display:inline-block; text-align: center;}
+.flexslider-container-page .flex-control-nav li:first-child {margin: 0;}
+.flexslider-container-page .flex-control-nav li a {
+	width: 13px;
+	height: 13px;
+	display: block;
+	border:none;
+	background: url(../../images/flexislider/bg_control_nav.png) no-repeat 0 0;
+	cursor: pointer;
+	text-indent: -9999px;
+	}
+.flexslider-container-page .flex-control-nav li a:hover {background-position: 0 -13px;}
+.flexslider-container-page .flex-control-nav li a.flex-active {background-position: 0 -26px; cursor: default;}
+
+.flexslider-container-page {
+	overflow: hidden;
+}
+.flexslider-container-page .slides li {
+}
+
+
