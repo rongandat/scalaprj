@@ -69,10 +69,6 @@
 		display: none;
 	}
 
-	.responsive-menu-wrap {
-	    display: none;
-	}
-
 	#demopanel {
 		display:none !important;
 	}
@@ -421,9 +417,9 @@
 		padding:0;
 	}
 
-	.logo img {
+/*	.logo img {
 		max-width: 100px;
-	}
+	}*/
 
 	.container-boxed {
 		padding: 5px 30px 75px;
@@ -903,10 +899,7 @@ WooCommerce*/
 	.header-elements-wrap {
 		padding: 20px 0;
 	}
-	.logo {
-		float: none;
-	}
-
+	
 	/* Header search OFF */
 	.header-search-wrap {
 		display:none;

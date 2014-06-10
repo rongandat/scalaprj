@@ -26,6 +26,15 @@
 .mobile-menu-icon {
     font-size: 28px;
 }
+
+.logo {
+    line-height: 0;
+    margin: 40px 60px 30px;
+    margin-top: 50px;
+    position: relative;
+    z-index: 20;
+}
+
 .responsive-menu-wrap {
     background:rgba(000, 0, 0, 0.5);
     color:#fff;
@@ -156,33 +165,43 @@
 }
 
 @media only screen and (max-width: 900px) {
-    
-    #menu-show-btn{
-        position: fixed;
-        top: 0;
-        left: 0;
-        z-index: 999;
-        font-size: 30px;
-        background: #fff;
-        cursor: pointer;
-        display: block;
-    }
+
     .responsive-menu-wrap {
         background:#fff;
         color:#000000;
-        width: 210px;
-        height: 100%;
+        width: 100%;
         z-index: 998;
         /*opacity: 0.3;*/
         font-family: HelveticaNeue;
-        position: absolute;
-        float: left;
+        position: relative;
+        display: block;
+        float: none;
+        height: auto;
+        cursor: pointer;
     }
-    
+
+    .logo{
+        background: none repeat scroll 0 0 #000000;
+        display: block;
+        height: 28px;
+        line-height: 0;
+        margin: 50px 5px 30px;
+        position: relative;
+        z-index: 20;
+
+        width: 100%;
+        text-align: center;
+        margin: 0;
+    }
+
+    .logo img{
+        margin-top: 4px;
+    }
+
     /* Mobile Menu ON */
-	.responsive-menu-wrap {
-		display:none;
-	}
+    .responsive-mobile-menu {
+        display:none;
+    }
 
     .responsive-mobile-menu{
         width: 100%;
@@ -191,42 +210,73 @@
     .responsive-mobile-menu #s {
         margin:5px;
     }
+    /*    .responsive-mobile-menu #searchform {
+            margin:0 auto;
+            text-align: left;
+            padding:0 13px 40px;
+            display: block;
+        }
+    
+    
+        .responsive-mobile-menu #searchform i {
+            color:#000;
+        }
+    
+        .responsive-mobile-menu #searchform input {
+            background: none repeat scroll 0 0 #EEEEEE;
+            border: 0 none;
+            color: #5D5A5A;
+            font-weight: 200;
+            height: 30px;
+            margin: 0;
+            padding: 0;
+            text-indent: 8px;
+            width: 135px;
+        }
+        .responsive-mobile-menu #searchbutton {
+    
+        }
+    
+        #searchbutton {
+            background: none repeat scroll 0 0 rgba(0, 0, 0, 0) !important;
+            border: 0 none;
+            cursor: pointer;
+            text-align: right;
+            font-size: 15px;
+            height: 32px;
+            opacity: 1;
+            padding: 0 0 0 30px;
+            width: 32px;
+        }*/
+
+
     .responsive-mobile-menu #searchform {
-        margin:0 auto;
-        text-align: left;
-        padding:0 13px 40px;
+        margin: 0 auto;
+        padding-top: 5px;
+        text-align: center;
         display: block;
     }
 
 
-    .responsive-mobile-menu #searchform i {
-        color:#000;
-    }
-
     .responsive-mobile-menu #searchform input {
         background: none repeat scroll 0 0 #EEEEEE;
-        border: 0 none;
-        color: #5D5A5A;
+        color: #000000;
         font-weight: 200;
-        height: 30px;
-        margin: 0;
-        padding: 0;
-        text-indent: 8px;
-        width: 135px;
+        text-indent: 20px;
+        width: 50%;
     }
-    .responsive-mobile-menu #searchbutton {
-
+    .responsive-mobile-menu #s {
+        margin: 5px;
     }
 
     #searchbutton {
         background: none repeat scroll 0 0 rgba(0, 0, 0, 0) !important;
         border: 0 none;
         cursor: pointer;
-        text-align: right;
         font-size: 15px;
         height: 32px;
         opacity: 1;
-        padding: 0 0 0 30px;
+        padding: 10px 18px 4px;
         width: 32px;
     }
 
@@ -245,12 +295,32 @@
     }
 
 
+    /*    .responsive-mobile-menu ul li a {
+            font-size:11px;
+            color:#000;
+            letter-spacing: 0.5px;
+            padding: 0 0 15px 0;
+            display: block;
+        }*/
+
+
     .responsive-mobile-menu ul li a {
-        font-size:11px;
-        color:#000;
-        letter-spacing: 0.5px;
-        padding: 0 0 15px 0;
+        color: #000000;
         display: block;
+        font-size: 18px;
+        font-weight: 600;
+        letter-spacing: 0.5px;
+        padding: 4px 20px;
+        text-align: center;
+    }
+
+
+    .responsive-mobile-menu ul.sub-menu li a {
+        color: #656565;
+        display: block;
+        font-size: 14px;
+        font-weight: 400;
+        letter-spacing: 0.5px;
     }
 
     .responsive-mobile-menu ul li.menu-item-has-children{
@@ -298,13 +368,7 @@
 
     }
 
-    .logo {
-        line-height: 0;
-        margin: 40px 5px 30px;
-        margin-top: 50px;
-        position: relative;
-        z-index: 20;
-    }
+
 
     .responsive-menu-wrap div.copyright span{
         border-top: 1px solid #706958;
@@ -333,7 +397,7 @@
     padding: 0;
     margin: 0;
     background:none;
-    width: 370px;
+    /*width: 370px;*/
     color: #fff;
     position: fixed;
     right: 0;
@@ -342,7 +406,8 @@
 }
 
 .login-popup a.login-btn{
-    background:rgba(000, 0, 0, 0.5);
+    /*background:rgba(000, 0, 0, 0.5);*/
+    background: #000;
     width: 110px;
     height: 23px;
     text-align: center;
@@ -353,6 +418,8 @@
     margin: 0;
     float: right;
     color: #fff;
+
+    position: relative;
 }
 
 .login-popup .login-scroll{
@@ -600,4 +667,160 @@
 }
 #register-success-form.scala-popup .header{
     border: 0;
+}
+
+
+
+.register-form-sc .header{
+    padding: 0 0 15px 0;
+    border-bottom: 1px solid #7f8080;
+    position: relative;
+}
+
+.register-form-sc .close-popup{
+    position: absolute;
+    width: 30px;
+    height: 40px;
+    background: url('../../images/icons/close-popup.png') no-repeat center center;
+    top: 20px;
+    right: 20px;
+    cursor: pointer;
+}
+
+.register-form-sc .header h2{
+    color: #000;
+    font-size: 16px;
+    padding: 0 0 10px 0;
+}
+
+
+
+.register-form-sc .header p{
+    font-size: 11px;
+    color: #000;
+}
+
+.register-form-sc .content{
+
+    color: #999999;
+    font-size: 11px;
+    padding: 25px 0 155px;
+}
+
+.register-form-sc .content input[type="text"],
+.register-form-sc .content input[type="password"]{
+    height: 22px;
+    width: 135px;
+    background: url('../../images/icons/input-text-left.png'), url('../../images/icons/image-text-right.png') , url('../../images/icons/image-text-center.png');
+    background-position: left top, right top, left top ;
+    background-repeat: no-repeat, no-repeat, repeat-x;
+    padding: 0 5px;
+    font-size: 11px;
+    border: 0;
+    border-radius: 0;
+}
+
+
+/* The CSS */
+
+.register-form-sc .content span.label_select {
+    position:relative;
+    height: 22px;
+}
+
+.register-form-sc .content label{
+    width: 120px;
+    float: left;
+}
+
+.register-form-sc .content label[for="customers_telephone_ext"]{
+    padding-left: 25px;
+    width: 25px;
+}
+
+.register-form-sc .content input#customers_telephone_ext{
+    width: 55px;
+}
+.register-form-sc .content span{
+    display: block;
+    float: left;
+}
+
+.register-form-sc .content span.label_select:before {
+    background: url("../../images/icons/select-box-right.png") no-repeat scroll right top rgba(0, 0, 0, 0);
+    content: "";
+    display: block;
+    height: 22px;
+    pointer-events: none;
+    position: absolute;
+    right: -1px;
+    top: 0;
+    width: 25px;
+}
+.register-form-sc .content select{
+    height: 22px;
+    background: url('../../images/icons/select-box-left.png'), url('../../images/icons/select-box-right.png'), url('../../images/icons/select-box-center.png');
+    background-position: left top,right top,center top ;
+    background-repeat: no-repeat,no-repeat, repeat-x;
+    padding: 3px 5px 0;
+    font-size: 11px;
+    border: 0;
+    border-radius: 0;
+    color: #999999;
+}
+
+.register-form-sc .input-box{
+    padding: 6px 0 0 5px;
+}
+
+.register-form-sc .input-box input{
+    float: left;
+}
+
+.register-form-sc .input-box i{
+    float: left;
+    display: block;
+    padding-left: 5px;
+}
+
+.register-form-sc .input-box p{
+    display: block;
+    float: left;
+    padding-left: 120px;
+}
+
+.register-form-sc .content h3{
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.register-form-sc .content .content-left{
+    float: left;
+    width: 50%;
+}
+
+.register-form-sc .content .content-right{
+    float: right;
+    width: 50%;
+}
+
+.register-form-sc h3.thanks{
+    font-size: 16px;
+    color: #000;
+}
+
+.register-form-sc p.msg{
+    padding: 10px 0 35px;
+}
+
+@media only screen and (max-width: 900px) {
+    .register-form-sc .content .content-right{
+        float: left;
+        width: 100%;
+    }
+
+    .register-form-sc .content .content-left{
+        float: left;
+        width: 100%;
+    }
 }

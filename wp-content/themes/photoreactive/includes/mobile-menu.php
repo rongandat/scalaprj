@@ -1,5 +1,3 @@
-
-<div id="menu-show-btn" class="icon-align-justify"></div>
 <div class="responsive-menu-wrap">
     <div class="logo" id="responsive-menu-logo">
         <?php
