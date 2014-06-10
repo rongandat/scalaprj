@@ -66,10 +66,10 @@ jQuery(document).ready(function($) {
 //        resizeMenu()
     });
 
-    $('.register-suggest').click(function() {
-        hideLoginPopup();
-        showRegisterPopup();
-    });
+//    $('.register-suggest').click(function() {
+//        hideLoginPopup();
+//        showRegisterPopup();
+//    });
 
     /**
      * showLoginPopup
@@ -169,8 +169,7 @@ jQuery(document).ready(function($) {
     if (curr_menu_item) {
         $(".mobile-menu-selected").text(curr_menu_item);
     }
-    $("#responsive-menu-logo").click(function() {
-        var wall_lastWindowWidth = jQuery(window).width();
+    $(".mobile-menu-toggle").click(function() {
             $(".responsive-mobile-menu").slideToggle('slow');
 
     });

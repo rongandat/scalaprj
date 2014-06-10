@@ -1,25 +1,25 @@
 <div class="responsive-menu-wrap">
-    <div class="logo" id="responsive-menu-logo">
-        <?php
-        $main_logo = of_get_option('main_logo');
-        $responsive_logo = of_get_option('responsive_logo');
-        if ($main_logo <> "") {
-            if ($responsive_logo <> "") {
-                echo '<img class="logoimage" src="' . $responsive_logo . '" alt="logo" />';
+    <div class="mobile-menu-toggle">
+        <span class="mobile-menu-icon"><i class="icon-reorder"></i></span>
+        <div class="logo-mobile">
+            <?php
+            $main_logo = of_get_option('main_logo');
+            $responsive_logo = of_get_option('responsive_logo');
+            if ($main_logo <> "") {
+                if ($responsive_logo <> "") {
+                    echo '<img class="logoimage" src="' . $responsive_logo . '" alt="logo" />';
+                } else {
+                    echo '<img class="logoimage" src="' . $main_logo . '" alt="logo" />';
+                }
             } else {
-                echo '<img class="logoimage" src="' . $main_logo . '" alt="logo" />';
+                echo '<img class="logo-light" src="' . MTHEME_PATH . '/images/logo.png" alt="logo" />';
             }
-        } else {
-            echo '<img class="logo-light" src="' . MTHEME_PATH . '/images/logo.png" alt="logo" />';
-        }
-        ?>
+            ?>
+        </div>
     </div>
     <div class="responsive-mobile-menu">
         <?php
         get_search_form();
-        ?>
-        <div class="clear"></div>
-        <?php
         // Responsive menu conversion to drop down list
         if (function_exists('wp_nav_menu')) {
             wp_nav_menu(array(
@@ -37,12 +37,6 @@
             );
         }
         ?>
-
-
-    </div>
-    <div class="copyright">
-        <span>Copyright @ 2014 Scala Luxury</span>
-        <div class="copyright-img"></div>
     </div>
     <?php
     $wpml_lang_selector_disable = of_get_option('wpml_lang_selector_disable');
