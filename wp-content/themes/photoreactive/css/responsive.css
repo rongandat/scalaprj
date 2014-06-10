@@ -8,11 +8,9 @@
 @media only screen and (max-width: 1400px) {
 
 	.container-wrapper {
-		width:1000px;
-		margin: 0 330px;
+		width:1024px;
+		margin: 15px auto 15px auto;
 		float: none;
-                display: block;
-                overflow: hidden;
 	}
 	.photowall-wrap {
 		margin-left: 1px !important;
@@ -35,38 +33,20 @@
 	}
 
 }
-@media only screen and (max-width: 1300px) {
+@media only screen and (max-width: 1024px) {
 
 	.container-wrapper {
-		width:900px;
-		margin: 0 330px;
-		float: none;
-                display: block;
-                overflow: hidden;
-	}
-	
-}
-@media only screen and (max-width: 1200px) {
-
-	.container-wrapper {
-		width:800px;
-		margin: 0 330px;
-		float: none;
-                display: block;
-                overflow: hidden;
-	}
-	
-}
-@media only screen and (max-width: 900px) {
-
-	.container-wrapper {
-		width:700px;
+		width:940px;
 		margin: 5px auto 5px auto;
 		float: none;
 	}
 
 	.header-elements-wrap {
 		display: none;
+	}
+
+	.responsive-menu-wrap {
+	    display: block;
 	}
 
 	#demopanel {
@@ -87,7 +67,7 @@
 @media only screen and (min-width: 768px) and (max-width: 959px) {
 
 	.container-wrapper {
-		width:600px;
+		width:760px;
 		margin: 5px auto 5px auto;
 		float: none;
 	}
@@ -141,7 +121,10 @@
 		display:none;
 	}
 
-	
+	/* Mobile Menu ON */
+	.responsive-menu-wrap {
+		display:block;
+	}
 	/* Main Menu and Header Menu OFF */
 	.mainmenu-navigation {
 		display:none;
@@ -417,9 +400,9 @@
 		padding:0;
 	}
 
-/*	.logo img {
+	.logo img {
 		max-width: 100px;
-	}*/
+	}
 
 	.container-boxed {
 		padding: 5px 30px 75px;
@@ -899,7 +882,10 @@ WooCommerce*/
 	.header-elements-wrap {
 		padding: 20px 0;
 	}
-	
+	.logo {
+		float: none;
+	}
+
 	/* Header search OFF */
 	.header-search-wrap {
 		display:none;

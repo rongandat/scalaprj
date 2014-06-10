@@ -27,10 +27,12 @@ if ($mtheme_pagestyle == "leftsidebar") {
     $floatside = "float-right";
 }
 ?>
-<div class="entry-title <?php echo $floatside . " ";
-        if ($mtheme_pagestyle != "nosidebar" && $mtheme_pagestyle != '' && $mtheme_pagestyle != "fullwidth") {
-            echo 'two-column';
-        } ?>">
+<div class="entry-title <?php
+     echo $floatside . " ";
+     if ($mtheme_pagestyle != "nosidebar" && $mtheme_pagestyle != '' && $mtheme_pagestyle != "fullwidth") {
+         echo 'two-column';
+     }
+     ?>">
     <h1>
         <?php if (is_day()) : ?>
             <?php printf(__('Daily Archives: <span>%s</span>', 'mthemelocal'), get_the_date()); ?>
@@ -54,20 +56,21 @@ if ($mtheme_pagestyle == "leftsidebar") {
             <?php the_title(''); ?>
         <?php elseif (is_post_type_archive('mtheme_portfolio')) : ?>
             <?php echo of_get_option('portfolio_singular_refer'); ?>
-<?php elseif (is_post_type_archive('product')) : ?>
-    <?php echo of_get_option('mtheme_woocommerce_shoptitle'); ?>
-<?php elseif (is_tax()) : ?>
-    <?php
-    $term = get_queried_object();
-    if (!isSet($term->name)) {
-        $worktype = of_get_option('portfolio_singular_refer');
-    } else {
-        $worktype = $term->name;
-    }
-    echo $worktype;
-    ?>
-<?php else : ?>
+        <?php elseif (is_post_type_archive('product')) : ?>
+            <?php echo of_get_option('mtheme_woocommerce_shoptitle'); ?>
+        <?php elseif (is_tax()) : ?>
+            <?php
+            $term = get_queried_object();
+            if (!isSet($term->name)) {
+                $worktype = of_get_option('portfolio_singular_refer');
+            } else {
+                $worktype = $term->name;
+            }
+            echo $worktype;
+            ?>
+        <?php else : ?>
     <?php the_title(''); ?>
 <?php endif; ?>
+        <span></span>
     </h1>
 </div>

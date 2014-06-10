@@ -1,4 +1,4 @@
-.responsive-menu-wrap {
+/*.responsive-menu-wrap {
     display: none;
 }
 .mobile-menu-toggle {
@@ -41,9 +41,9 @@
     width: 320px;
     height: 100%;
     z-index: 99;
-    /*opacity: 0.3;*/
+    opacity: 0.3;
     font-family: HelveticaNeue;
-    /*position: absolute;*/
+    position: absolute;
     float: left;
 }
 
@@ -132,7 +132,7 @@
 }
 
 .responsive-mobile-menu li a:hover {
-    /*background:#fff;*/
+    background:#fff;
 }
 
 .responsive-menu-wrap div.copyright{
@@ -162,9 +162,9 @@
 
 #menu-show-btn{
     display: none;
-}
+}*/
 
-@media only screen and (max-width: 900px) {
+/*@media only screen and (max-width: 900px) {*/
 
     .responsive-menu-wrap {
         background:#fff;
@@ -389,7 +389,7 @@
         padding-top: 30px;
     }
 
-}
+/*}*/
 
 .login-popup{
     display: block;
@@ -399,7 +399,7 @@
     background:none;
     /*width: 370px;*/
     color: #fff;
-    position: fixed;
+    position: absolute;
     right: 0;
     top: 0;
     z-index: 999;

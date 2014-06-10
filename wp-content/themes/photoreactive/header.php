@@ -43,7 +43,8 @@
             echo '<div class="container-boxed">';
         }
 
-        $conuntriesJson = file_get_contents(get_site_url() . '/catalog/get_country.php');
+//        $conuntriesJson = file_get_contents(get_site_url() . '/catalog/get_country.php');
+        $conuntriesJson = '{}';
         ?>
 
         <div class="scala-popup" id="register-form">

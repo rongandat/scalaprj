@@ -1,6 +1,3 @@
-jQuery(window).load(function() {
-    resizeMenu()
-});
 
 jQuery(document).ready(function($) {
     "use strict";
@@ -11,14 +8,6 @@ jQuery(document).ready(function($) {
     var curr_menu_item;
     var percent;
 
-    $(window).resize(function() {
-        var wall_lastWindowWidth = $(window).width();
-        if (wall_lastWindowWidth > 900) {
-            $('.responsive-mobile-menu').show();
-        }else{
-            $('.responsive-mobile-menu').hide();
-        }
-    });
 
     if (isIOS || isAndroid) {
         $('.fullpage-block').css('background-attachment', 'scroll');
@@ -44,7 +33,7 @@ jQuery(document).ready(function($) {
 
 
     $(window).resize(function() {
-        resizeMenu()
+//        resizeMenu()
     });
 
     $(".fitVids").fitVids();
@@ -74,7 +63,7 @@ jQuery(document).ready(function($) {
             e.show();
         else
             e.hide()
-        resizeMenu()
+//        resizeMenu()
     });
 
     $('.register-suggest').click(function() {
@@ -182,9 +171,7 @@ jQuery(document).ready(function($) {
     }
     $("#responsive-menu-logo").click(function() {
         var wall_lastWindowWidth = jQuery(window).width();
-        if (wall_lastWindowWidth < 900) {
             $(".responsive-mobile-menu").slideToggle('slow');
-        }
 
     });
 

@@ -73,7 +73,7 @@
                             <span title="<?php _e('Previous', 'mthemelocal'); ?>" class="ntips portfolio-nav-item portfolio-prev">
                                 <?php previous_post_link_plus(array('order_by' => 'menu_order', 'format' => '%link', 'tooltip' => '', 'link' => '<i class="icon-chevron-left"></i>')); ?>
                             </span>
-                            <span title="<?php _e('Gallery', 'mthemelocal'); ?>" class="ntips portfolio-nav-item portfolio-nav-archive">
+                            <span title="<?php _e('Collections', 'mthemelocal'); ?>" class="ntips portfolio-nav-item portfolio-nav-archive">
                                 <a href="<?php echo get_post_type_archive_link('mtheme_portfolio'); ?>"><i class="icon-align-justify"></i></a>
                             </span>
                             <span title="<?php _e('Next', 'mthemelocal'); ?>" class="ntips portfolio-nav-item portfolio-next">

@@ -81,6 +81,6 @@
             <button type="submit" name="signin">Sign in</button>
             <div class="clear"></div>
         </form>
-        <a class="register-suggest" href="javascript:void(0)">If you don’t have an account, please register here</a>
+        <a class="register-suggest" href="<?php echo get_permalink(get_page_by_path('register')->ID); ?>">If you don’t have an account, please register here</a>
     </div>
 </div>

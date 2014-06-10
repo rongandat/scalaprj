@@ -269,7 +269,11 @@ function mtheme_FelxiSlideshow($atts, $content = null) {
 			start: function(){
 				jQuery(".flexslider-container-page,.gridblock-element .ajax-image-block").css("background","none");
 			},
+                        after: function(){
+				jQuery(".entry-title  h1 span").text(\' : \' + jQuery(".flex-active-slide .sc_slideshowtitle").text());
+			},
 		});
+                jQuery(".entry-title  h1 span").text(\' : \' + jQuery(".flex-active-slide .sc_slideshowtitle").text());
 	});
 </script>
 ';
