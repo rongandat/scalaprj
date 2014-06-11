@@ -46,7 +46,7 @@
 //        $conuntriesJson = file_get_contents(get_site_url() . '/catalog/get_country.php');
         $conuntriesJson = '{}';
         ?>
-
+<!--
         <div class="scala-popup" id="register-form">
             <a href="javascript:void(0)" class="close-popup"></a>
             <div class="header">
@@ -214,4 +214,9 @@
                     the approval email, in which case you should email us directly or call us at 310-929-7211
                 </p>
             </div>
-        </div>
+        </div>-->
+        
+        
+        <script>
+            var site_url = "<?php echo get_site_url(); ?>";
+        </script>

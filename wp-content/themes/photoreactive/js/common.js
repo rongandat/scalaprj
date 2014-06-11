@@ -15,8 +15,7 @@ jQuery(document).ready(function($) {
 
 
     $('#register-form-post').submit(function() {
-        var datastring = $("#register-form-post").serialize();
-        console.log(datastring);
+        register();
         return false;
     });
 
@@ -82,6 +81,136 @@ jQuery(document).ready(function($) {
      */
     function hideLoginPopup() {
         $('.login-scroll').addClass('hidden');
+    }
+    
+    /**
+     * loadState
+     */
+    function loadState() {
+        $.ajax({
+            url: site_url + '/catalog/cya_ajax.php',
+            data: register_form,
+            type: 'POST',
+            dataType: 'JSON',
+            success: function(jsonObj) {
+                if (jsonObj.type == 1) {
+                    $('#register-form-wrp').hide();
+                    $('#register-success-form').show();
+                } else {
+                    $.each(jsonObj.message, function(index, value) {
+                        error += '<li>' + value + '</li>';
+                    });
+                    $('div.error').html('<ul>' + error + '</ul>');
+                }
+            },
+            error: function() {
+                t.loadNextTrack();
+            }
+        });
+    }
+
+    /**
+     * register
+     */
+    function register() {
+        $('div.error').html('');
+        var error = validateRegister();
+        if (error.length > 0) {
+            $('div.error').html('<ul>' + error + '</ul>');
+            return false;
+        }
+
+        var register_form = $('#register-form-post').serialize();
+        register_form += '&action=cya_register';
+
+        $.ajax({
+            url: site_url + '/catalog/cya_ajax.php',
+            data: register_form,
+            type: 'POST',
+            dataType: 'JSON',
+            success: function(jsonObj) {
+                if (jsonObj.type == 1) {
+                    $('#register-form-wrp').hide();
+                    $('#register-success-form').show();
+                } else {
+                    $.each(jsonObj.message, function(index, value) {
+                        error += '<li>' + value + '</li>';
+                    });
+                    $('div.error').html('<ul>' + error + '</ul>');
+                }
+            },
+            error: function() {
+                t.loadNextTrack();
+            }
+        });
+
+    }
+
+
+    function validateRegister() {
+        var firstname = $('#firstname').val();
+        var lastname = $('#lastname').val();
+        var title = $('#title').val();
+        var email_address = $('#email_address').val();
+        var website = $('#website').val();
+        var company = $('#company').val();
+        var customers_group = $('#customers_group').val();
+        var country = $('#country').val();
+        var street_address = $('#street_address').val();
+        var postcode = $('#postcode').val();
+        var city = $('#city').val();
+        var telephone = $('#telephone').val();
+        var password = $('#password').val();
+        var confirmation = $('#confirmation').val();
+
+        var error = '';
+        if (firstname.length == 0) {
+            error += '<li>First name is required.</li>';
+        }
+        if (lastname.length == 0) {
+            error += '<li>Last name is required.</li>';
+        }
+        if (title.length == 0) {
+            error += '<li>Title/Position is required.</li>';
+        }
+        if (email_address.length == 0) {
+            error += '<li>Email is required.</li>';
+        }
+        if (website.length == 0) {
+            error += '<li>Website is required.</li>';
+        }
+        if (company.length == 0) {
+            error += '<li>Company Name is required.</li>';
+        }
+        if (customers_group.length == 0) {
+            error += '<li>Business is required.</li>';
+        }
+        if (country.length == 0) {
+            error += '<li>Country is required.</li>';
+        }
+        if (street_address.length == 0) {
+            error += '<li>Street is required.</li>';
+        }
+        if (postcode.length == 0) {
+            error += '<li>Post Code is required.</li>';
+        }
+        if (city.length == 0) {
+            error += '<li>City is required.</li>';
+        }
+        if (telephone.length == 0) {
+            error += '<li>Telephone Number is required.</li>';
+        }
+        if (password.length == 0) {
+            error += '<li>Password is required.</li>';
+        }
+        if (confirmation.length == 0) {
+            error += '<li>Password Confirmation is required.</li>';
+        }
+
+        if (password != confirmation) {
+            error += '<li>The Password Confirmation must match your Password.</li>';
+        }
+        return error;
     }
 
     /**
@@ -170,7 +299,7 @@ jQuery(document).ready(function($) {
         $(".mobile-menu-selected").text(curr_menu_item);
     }
     $(".mobile-menu-toggle").click(function() {
-            $(".responsive-mobile-menu").slideToggle('slow');
+        $(".responsive-mobile-menu").slideToggle('slow');
 
     });
 
