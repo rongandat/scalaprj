@@ -832,7 +832,7 @@ h1.entry-slider-title {
 
 
 .entry-title h1 {
-    color: #000;
+    color: #9C9C9C;
     display: block;
     font-size: 18px;
     font-weight: 500;
@@ -6841,9 +6841,61 @@ i.fontawesome {
     margin-top: 2px;
     float:left;
     margin-left: 5px;
-    background-image: url("images/preloaders/circle-spinner.png");
+
+}
+
+.responsive-menu-wrap{
+    position: relative;
+}
+
+@-webkit-keyframes spinnerRotate {
+    from {
+    -webkit-transform:rotate(0deg);
+}
+to {
+    -webkit-transform:rotate(360deg);
+}
+}
+@-moz-keyframes spinnerRotate {
+   from {
+    -moz-transform: rotate(0deg);
+}
+to {
+    -moz-transform: rotate(360deg);
+}
+}
+@-o-keyframes spinnerRotate {
+    0%   { opacity: 0; }
+100% { opacity: 1; }
+}
+@keyframes spinnerRotate {
+    from {
+    transform: rotate(0deg);
+}
+to {
+    transform: rotate(360deg);
+}
+}
+
+#photowall-container.loading{
+    background-image: url("images/ajax-loader.gif");
     background-position: 50% 50%;
     background-repeat: no-repeat;
+    
+    height: 900px;
+/*    width: 100%;
+    text-indent: 250px;
+    white-space: nowrap;
+    overflow: hidden;
+    background: url("images/spinner.png");
+
+    -moz-animation-name: spinnerRotate;
+    -moz-animation-duration: 2s;
+    -moz-animation-iteration-count: infinite;
+
+    -webkit-animation-name: spinnerRotate;
+    -webkit-animation-duration: 2s;
+    -webkit-animation-iteration-count: infinite;*/
 }
 .photowall-item {
     width: 24.9%;
@@ -8385,10 +8437,11 @@ div.recent-single-carousel-wrap h3.item-title{
     border: 0 none;
     color: #FFFFFF;
     float: right;
-    font-size: 11px;
+    font-size: 12px;
     margin-top: 50px;
-    padding: 5px 15px;
+    padding: 7px 16px;
     text-transform: uppercase;
+    cursor: pointer;
 }
 
 div.error ul li{

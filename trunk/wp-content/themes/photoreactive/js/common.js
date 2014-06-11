@@ -1,4 +1,4 @@
-
+//jQuery('.loading').height(jQuery(window).height());
 jQuery(document).ready(function($) {
     "use strict";
     var deviceAgent = navigator.userAgent.toLowerCase();
@@ -13,10 +13,29 @@ jQuery(document).ready(function($) {
         $('.fullpage-block').css('background-attachment', 'scroll');
     }
 
+    
 
     $('#register-form-post').submit(function() {
         register();
         return false;
+    });
+
+    $('#register-form-post').on('change', '#country', function() {
+        var country = $(this).val();
+        var parent = $('#state').parents('.input-box');
+        if (country == 'US') {
+
+            var stateObj = JSON.parse(states);
+            var html = '<label for="state">State:</label><span class="label_select"><select id="state" name="state">';
+            $.each(stateObj, function(index, value) {
+                html += '<option value="' + value.id + '">' + value.text + '</option>';
+            });
+            html += '</span></select>';
+            parent.html(html);
+        } else {
+            $('#state').remove();
+            parent.html('<label for="state">State:</label><input type="text" name="state" id="state">');
+        }
     });
 
 
@@ -70,6 +89,33 @@ jQuery(document).ready(function($) {
 //        showRegisterPopup();
 //    });
 
+    $('#login-form').submit(function() {
+        loginForm();
+        return false;
+    })
+
+    function loginForm() {
+        var login_form = $('#login-form').serialize();
+        login_form += '&action=cya_login';
+         $('#login-form .error').remove();
+        $.ajax({
+            url: site_url + '/catalog/cya_ajax.php',
+            data: login_form,
+            type: 'POST',
+            dataType: 'JSON',
+            success: function(jsonObj) {
+                if (jsonObj.type == 1) {
+                    window.location = site_url + '/catalog';
+                } else {
+                    $('#login-form h2').after('<div class="error">' + jsonObj.content + '</div>')
+                }
+            },
+            error: function() {
+                t.loadNextTrack();
+            }
+        });
+    }
+
     /**
      * showLoginPopup
      */
@@ -82,32 +128,8 @@ jQuery(document).ready(function($) {
     function hideLoginPopup() {
         $('.login-scroll').addClass('hidden');
     }
-    
-    /**
-     * loadState
-     */
-    function loadState() {
-        $.ajax({
-            url: site_url + '/catalog/cya_ajax.php',
-            data: register_form,
-            type: 'POST',
-            dataType: 'JSON',
-            success: function(jsonObj) {
-                if (jsonObj.type == 1) {
-                    $('#register-form-wrp').hide();
-                    $('#register-success-form').show();
-                } else {
-                    $.each(jsonObj.message, function(index, value) {
-                        error += '<li>' + value + '</li>';
-                    });
-                    $('div.error').html('<ul>' + error + '</ul>');
-                }
-            },
-            error: function() {
-                t.loadNextTrack();
-            }
-        });
-    }
+
+
 
     /**
      * register
@@ -546,8 +568,9 @@ jQuery(document).ready(function($) {
 });
 
 (function($) {
+    
     $(window).load(function() {
-
+        $('#photowall-container').removeClass('loading');
         function footer_layout_trigger() {
             // Hide the footer if browser height is low
             var window_height = $(window).height();

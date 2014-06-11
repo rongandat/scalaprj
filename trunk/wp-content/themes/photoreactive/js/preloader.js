@@ -1,3 +1,4 @@
 jQuery(window).bind("load", function() {
-	jQuery('.preload-image:hidden').fadeIn(800);
+    
+    jQuery('.preload-image:hidden').fadeIn(800);
 });
