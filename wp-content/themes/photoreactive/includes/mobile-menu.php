@@ -48,33 +48,35 @@
         <?php
     }
     ?>
-</div>
 
-<div class="login-popup">
-    <a href="javascript:void(0)" class="login-btn">Login</a>
-    <div class="clear"></div>
-    <div class="login-scroll hidden">
-        <form action="" method="post">
-            <h2>Account Log In</h2>
-            <div class="login-input">
-                <span>Email: </span>
-                <input type="text" name="email" value="">
-            </div>
-            <div class="clear"></div>
-            <div class="login-input">
-                <span>Password: </span>
-                <input type="password" name="password" value="">
-            </div>
-            <div class="clear"></div>
-            <div class="login-input remember">
-                <span>&nbsp;</span>
-                <input type="checkbox" name="remember" id="remember" value="1">
-                <label for="remember">Remember me</label>
-            </div>
-            <div class="clear"></div>
-            <button type="submit" name="signin">Sign in</button>
-            <div class="clear"></div>
-        </form>
-        <a class="register-suggest" href="<?php echo get_permalink(get_page_by_path('register')->ID); ?>">If you don’t have an account, please register here</a>
+
+    <div class="login-popup">
+        <a href="javascript:void(0)" class="login-btn">Login</a>
+        <div class="clear"></div>
+        <div class="login-scroll hidden">
+            <form action="" method="post" id="login-form">
+                <h2>Account Log In</h2>
+                <div class="login-input">
+                    <span>Email: </span>
+                    <input type="text" name="email_address" value="">
+                </div>
+                <div class="clear"></div>
+                <div class="login-input">
+                    <span>Password: </span>
+                    <input type="password" name="password" value="">
+                </div>
+                <div class="clear"></div>
+                <div class="login-input remember">
+                    <span>&nbsp;</span>
+                    <input type="checkbox" name="remember_me" id="remember_me" value="on">
+                    <label for="remember">Remember me</label>
+                </div>
+                <div class="clear"></div>
+                <button type="submit" name="signin">Sign in</button>
+                <div class="clear"></div>
+            </form>
+            <a class="register-suggest" href="<?php echo get_permalink(get_page_by_path('register')->ID); ?>">If you don’t have an account, please register here</a>
+        </div>
     </div>
 </div>
+

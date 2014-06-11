@@ -21,13 +21,3 @@ $socialshare = array (
 			)
 		);
 ?>
-<ul class="portfolio-share">
-<li class="sharethis"><?php _e('Share','mthemelocal'); ?></li>
-<?php
-foreach($socialshare as $key => $share){
-  foreach( $share as $icon => $url){
-    echo '<li><a target="_blank" href="'.$url.'"><i class="'.$icon.'"></i></a></li>';
-  }
-}
-?>
-</ul>

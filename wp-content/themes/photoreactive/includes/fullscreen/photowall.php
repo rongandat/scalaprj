@@ -34,7 +34,7 @@ if ( post_password_required() ) {
 	} else {
 ?>
 <div class="photowall-wrap">
-<div id="photowall-container">
+    <div id="photowall-container" class="loading">
 <?php
 if (defined('ICL_LANGUAGE_CODE')) { // this is to not break code in case WPML is turned off, etc.
     $_type  = get_post_type($featured_page);

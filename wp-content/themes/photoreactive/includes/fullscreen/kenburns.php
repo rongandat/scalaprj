@@ -59,7 +59,6 @@ jQuery.backstretch("' . $default_bg . '", {
             ?>
             <style type="text/css">
                 body {
-                    position: absolute;
                     top:0;
                     left:0;
                     width:100%;

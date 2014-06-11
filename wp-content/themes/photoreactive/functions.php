@@ -829,6 +829,7 @@ if (in_array('woocommerce/woocommerce.php', apply_filters('active_plugins', get_
 
 function register_form_sortcode() {
     $conuntriesJson = file_get_contents(get_site_url() . '/catalog/get_country.php');
+    $stateJson = file_get_contents(get_site_url() . '/catalog/get_state.php');
     ?>
     <div class="register-form-sc">
 
@@ -907,6 +908,7 @@ function register_form_sortcode() {
                             <span class="label_select">
                                 <select id="country" name="country">
                                     <?php $conuntries = json_decode($conuntriesJson) ?>
+                                    <?php $states = json_decode($stateJson) ?>
                                     <?php foreach ($conuntries as $code => $name): ?>
                                         <option value="<?php echo $code ?>" <?php echo ($code == 'US') ? 'selected' : '' ?>><?php echo $name ?></option>
                                     <?php endforeach; ?>
@@ -933,13 +935,18 @@ function register_form_sortcode() {
                             <label for="state">State:</label>
                             <span class="label_select">
                                 <select id="state" name="state">
-                                    <option value="us">Alabma</option>
+                                    <?php foreach ($states as $state): ?>
+                                        <option value="<?php echo $state->id ?>" ><?php echo $state->text ?></option>
+                                    <?php endforeach; ?>
                                 </select>
                             </span>
                             <div class="clear"></div>
                         </div>
                         <div class="clear"></div>
                     </div>
+                    <script>
+                    var states = '<?php echo $stateJson ?>';
+                    </script>
                     <div class="content-right">
                         <h3>Your Contact Info</h3>
                         <div class="clear"></div>
@@ -960,13 +967,13 @@ function register_form_sortcode() {
                         <div class="clear"></div>
                         <div class="input-box">
                             <label for="password">Password:</label>
-                            <input type="text" name="password" id="password" value="">
+                            <input type="password" name="password" id="password" value="">
                             <i>*</i>
                         </div>
                         <div class="clear"></div>
                         <div class="input-box">
                             <label for="confirmation">Password Confirmation:</label>
-                            <input type="text" name="confirmation" id="confirmation" value="">
+                            <input type="password" name="confirmation" id="confirmation" value="">
                             <i>*</i>
                         </div>
                         <div class="clear"></div>
