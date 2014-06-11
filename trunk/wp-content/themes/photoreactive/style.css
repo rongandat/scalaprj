@@ -8390,3 +8390,7 @@ div.recent-single-carousel-wrap h3.item-title{
     padding: 5px 15px;
     text-transform: uppercase;
 }
+
+div.error ul li{
+    color: #FF2C55;
+}
