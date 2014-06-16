@@ -69,8 +69,8 @@ if ($mtheme_pagestyle == "leftsidebar") {
             echo $worktype;
             ?>
         <?php else : ?>
-    <?php the_title(''); ?>
-<?php endif; ?>
+            <?php the_title(''); ?>
+        <?php endif; ?>
         <span></span>
     </h1>
 </div>

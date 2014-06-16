@@ -147,7 +147,7 @@ input,textarea,button {
     font-size:16px;
     font-weight: 100;
     letter-spacing: 1px;
-    font-family: "Source Sans Pro","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: "HelveticaNeue";
 }
 /* **********************
 Font Associates
@@ -164,7 +164,7 @@ h1,h2,h3,h4,h5,h6,
 #gridblock-filters,
 .breadcrumb,
 .sidebar h3 {
-    font-family: "Source Sans Pro","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: "HelveticaNeue";
 }
 a{ outline: none; text-decoration: none; color:#444444; }
 a:hover{ text-decoration: none; }
@@ -679,11 +679,11 @@ Entry Contents
 
 .entry-content {
     color: #9C9C9C;
-    font-size: 14px;
     font-weight: 400;
     letter-spacing: 0.1px;
     line-height: 20px;
     word-spacing: 2.0px;
+    font-size: 16px;
 }
 
 .entry-content-wrapper {
@@ -831,16 +831,23 @@ h1.entry-slider-title {
 }
 
 
-.entry-title h1 {
-    color: #9C9C9C;
+.entry-title h1{
+    
+    color: #a5a4a4;
     display: block;
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 500;
     letter-spacing: 0;
     margin: 20px 0 40px;
     text-transform: uppercase;
 }
 
+.entry-title h1 span{
+    color: #9C9C9C;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 0;
+}
 .title-container-wrap .entry-title h2 {
     color: #DADADA;
     display: inline-block;
@@ -5944,7 +5951,7 @@ ul.portfolio-metainfo li a:hover,
     margin-top: 40px;
 }
 .recent-single-carousel-wrap {
-    padding: 0 30px 30px;
+    padding: 0;
 }
 
 /* Testimonial Slides
@@ -6857,7 +6864,7 @@ to {
 }
 }
 @-moz-keyframes spinnerRotate {
-   from {
+    from {
     -moz-transform: rotate(0deg);
 }
 to {
@@ -6878,24 +6885,24 @@ to {
 }
 
 #photowall-container.loading{
-    background-image: url("images/ajax-loader.gif");
+    background-image: url("images/ajax-loader-transparent.gif");
     background-position: 50% 50%;
     background-repeat: no-repeat;
+
+    height: 500px!important;
+    /*    width: 100%;
+        text-indent: 250px;
+        white-space: nowrap;
+        overflow: hidden;
+        background: url("images/spinner.png");
     
-    height: 900px;
-/*    width: 100%;
-    text-indent: 250px;
-    white-space: nowrap;
-    overflow: hidden;
-    background: url("images/spinner.png");
-
-    -moz-animation-name: spinnerRotate;
-    -moz-animation-duration: 2s;
-    -moz-animation-iteration-count: infinite;
-
-    -webkit-animation-name: spinnerRotate;
-    -webkit-animation-duration: 2s;
-    -webkit-animation-iteration-count: infinite;*/
+        -moz-animation-name: spinnerRotate;
+        -moz-animation-duration: 2s;
+        -moz-animation-iteration-count: infinite;
+    
+        -webkit-animation-name: spinnerRotate;
+        -webkit-animation-duration: 2s;
+        -webkit-animation-iteration-count: infinite;*/
 }
 .photowall-item {
     width: 24.9%;

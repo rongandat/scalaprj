@@ -945,7 +945,7 @@ function register_form_sortcode() {
                         <div class="clear"></div>
                     </div>
                     <script>
-                    var states = '<?php echo $stateJson ?>';
+                        var states = '<?php echo $stateJson ?>';
                     </script>
                     <div class="content-right">
                         <h3>Your Contact Info</h3>
@@ -986,7 +986,13 @@ function register_form_sortcode() {
                                     <option value="Internet Search">Internet Search</option>
                                     <option value="Other">Other</option>
                                 </select>
-                            </span><i>*</i><div class="clear"></div>
+                            </span>
+                            <i>*</i>
+                            <div class="clear">
+                                <label for="other_option_text">&nbsp;</label>
+                                <input type="text" value="" id="other_option_text" style="display: none" name="other_option_text" class="text uni">
+                            <div class="clear">
+                            </div>
 
                         </div>
                         <div class="clear"></div>

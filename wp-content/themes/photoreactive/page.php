@@ -4,7 +4,10 @@
 */
 ?>
  
-<?php get_header();get_template_part('header', 'title'); ?>
+<?php get_header();
+
+$classHeader = 'page-style';
+get_template_part('header', 'title'); ?>
 <?php
 if ( post_password_required() ) {
 	

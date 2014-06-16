@@ -19,6 +19,14 @@ jQuery(document).ready(function($) {
         register();
         return false;
     });
+    
+    $('#register-form-post').on('change','#other_option',function(){
+        var val = $(this).val();
+        $('#other_option_text').hide();
+        if(val == 'Other' || val == 'Referral'){
+            $('#other_option_text').show();
+        }
+    });
 
     $('#register-form-post').on('change', '#country', function() {
         var country = $(this).val();
@@ -74,15 +82,15 @@ jQuery(document).ready(function($) {
     $('#register-success-form .close-popup').click(function() {
         $('#register-success-form').hide();
     });
-
-    $('.menu-item-has-children').click(function() {
-        var e = $(this).children('.sub-menu');
-        if (e.is(':hidden'))
-            e.show();
-        else
-            e.hide()
-//        resizeMenu()
-    });
+//
+//    $('.menu-item-has-children').click(function() {
+//        var e = $(this).children('.sub-menu');
+//        if (e.is(':hidden'))
+//            e.show();
+//        else
+//            e.hide()
+////        resizeMenu()
+//    });
 
 //    $('.register-suggest').click(function() {
 //        hideLoginPopup();
